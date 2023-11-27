@@ -29,6 +29,7 @@ public class AccountBank {
 
     public void setHolder(String holder) {
         this.holder = holder;
+
     }
 
     public double getBalance() {
@@ -49,6 +50,6 @@ public class AccountBank {
                 + ", holder: "
                 + holder
                 + ", Balance: $ "
-                + String.format("%.2f", balance);
+                + String.format("%.2f ", balance);
     }
 }
