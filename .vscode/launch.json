@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "relogio_matriz",
+            "request": "launch",
+            "mainClass": "relogio_matriz",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "aposentadoria",
+            "request": "launch",
+            "mainClass": "aposentadoria",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "teste",
             "request": "launch",
             "mainClass": "Carro.teste",
