@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "arrayPares_Impares",
+            "request": "launch",
+            "mainClass": "arrayPares_Impares",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "relogio_matriz",
             "request": "launch",
             "mainClass": "relogio_matriz",
