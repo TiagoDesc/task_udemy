@@ -8,7 +8,6 @@ public class relogio_matriz {
         int sec = 0;
         int min = 0;
         int hour = 0;
-        boolean stop = false;
 
         System.out.print("Enter the day you want to wake up on: ");
         day = sc.nextLine();
