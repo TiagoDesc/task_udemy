@@ -11,6 +11,12 @@ public class Aplication {
         grade.name = sc.nextLine();
         System.out.println("Enter your grade of 1rd Trimester: ");
         grade.grade1 = sc.nextDouble();
+
+        while (grade.grade1 < 0 || grade.grade1 > 30) {
+            System.out.println("Invalid Grade. Enter your grade again with a number between 0 - 30.");
+            grade.grade1 = sc.nextDouble();
+        }
+
         System.out.println("Enter your grade of 2rd Trimester: ");
         grade.grade2 = sc.nextDouble();
         System.out.println("Enter your grade of 3rd Trimester: ");
