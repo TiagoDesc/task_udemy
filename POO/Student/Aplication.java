@@ -13,7 +13,7 @@ public class Aplication {
         grade.grade1 = sc.nextDouble();
 
         while (grade.grade1 < 0 || grade.grade1 > 30) {
-            System.out.println("Invalid Grade. Enter your grade again with a number between 0 and 30: ");
+            System.out.println(grade.toStringGrade1());
             grade.grade1 = sc.nextDouble();
         }
 
@@ -21,7 +21,7 @@ public class Aplication {
         grade.grade2 = sc.nextDouble();
 
         while (grade.grade2 < 0 || grade.grade2 > 35) {
-            System.out.println("Invalid Grade. Enter your grade again with a number between 0 and 35: ");
+            System.out.println(grade.toStringGrade2And3());
             grade.grade2 = sc.nextDouble();
         }
 
@@ -29,7 +29,7 @@ public class Aplication {
         grade.grade3 = sc.nextDouble();
 
         while (grade.grade3 < 0 || grade.grade3 > 35) {
-            System.out.println("Invalid Grade. Enter your grade again with a number between 0 and 35.");
+            System.out.println(grade.toStringGrade2And3());
             grade.grade3 = sc.nextDouble();
         }
 

@@ -19,4 +19,12 @@ public class Grade {
         }
     }
 
+    public String toStringGrade1() {
+        return "Invalid Grade. Enter your grade again with a number between 0 and 30.";
+    }
+
+    public String toStringGrade2And3() {
+        return "Invalid Grade. Enter your grade again with a number between 0 and 35.";
+    }
+
 }
