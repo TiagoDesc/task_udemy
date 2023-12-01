@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class arrayPares_Impares {
 
     // Size of vet
-    // creat the vet
-    // print the even numbers
-    // print odd numbers
+    // Creat the vet
+    // Print the even numbers
+    // Print odd numbers
 
     static int size() {
         Scanner input = new Scanner(System.in);
