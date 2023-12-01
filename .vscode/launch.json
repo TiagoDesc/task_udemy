@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aplication",
+            "request": "launch",
+            "mainClass": "POO.Student.Aplication",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "arrayPares_Impares",
             "request": "launch",
             "mainClass": "arrayPares_Impares",
