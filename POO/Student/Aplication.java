@@ -9,19 +9,19 @@ public class Aplication {
         Grade grade = new Grade();
         System.out.println("Enter your name: ");
         grade.name = sc.nextLine();
-        System.out.println("Enter your grade of 1rd Trimester: ");
+        System.out.println("Enter your grade of 1st Trimester: ");
         grade.grade1 = sc.nextDouble();
 
         while (grade.grade1 < 0 || grade.grade1 > 30) {
-            System.out.println("Invalid Grade. Enter your grade again with a number between 0 - 30: ");
+            System.out.println("Invalid Grade. Enter your grade again with a number between 0 and 30: ");
             grade.grade1 = sc.nextDouble();
         }
 
-        System.out.println("Enter your grade of 2rd Trimester: ");
+        System.out.println("Enter your grade of 2nd Trimester: ");
         grade.grade2 = sc.nextDouble();
 
         while (grade.grade2 < 0 || grade.grade2 > 35) {
-            System.out.println("Invalid Grade. Enter your grade again with a number between 0 - 35: ");
+            System.out.println("Invalid Grade. Enter your grade again with a number between 0 and 35: ");
             grade.grade2 = sc.nextDouble();
         }
 
@@ -29,7 +29,7 @@ public class Aplication {
         grade.grade3 = sc.nextDouble();
 
         while (grade.grade3 < 0 || grade.grade3 > 35) {
-            System.out.println("Invalid Grade. Enter your grade again with a number between 0 - 35.");
+            System.out.println("Invalid Grade. Enter your grade again with a number between 0 and 35.");
             grade.grade3 = sc.nextDouble();
         }
 
