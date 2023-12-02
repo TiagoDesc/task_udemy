@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Aplication",
             "request": "launch",
+            "mainClass": "POO.Circle.Aplication",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Aplication",
+            "request": "launch",
             "mainClass": "POO.Student.Aplication",
             "projectName": "ws-udemy_6c7938d2"
         },
