@@ -1,4 +1,4 @@
-package Array;
+package Array.Altura;
 
 import java.util.Locale;
 import java.util.Scanner;
