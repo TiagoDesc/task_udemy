@@ -6,13 +6,15 @@ public class employee {
     public double grossSalary;
     public double tax;
 
-    public double liquidSalary (){
+    public double liquidSalary() {
         return grossSalary - tax;
     }
 
-    public void increaseSalary(double percent){
+    public void increaseSalary(double percent) {
         grossSalary += grossSalary * percent / 100;
 
     }
-    
+
+    // public String toStringEmployee
+
 }
