@@ -15,6 +15,8 @@ public class employee {
 
     }
 
-    // public String toStringEmployee
+    public String toString() {
+        return name + ", $" + liquidSalary();
+    }
 
 }
