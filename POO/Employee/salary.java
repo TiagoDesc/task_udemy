@@ -6,23 +6,22 @@ public class salary {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        employee emp = new employee();
 
         System.out.print("Enter the name: ");
-        emp.name = sc.nextLine();
+        employee.name = sc.nextLine();
         System.out.print("Enter the Gross Salary: ");
-        emp.grossSalary = sc.nextDouble();
+        employee.grossSalary = sc.nextDouble();
         System.out.print("Enter the tax: ");
-        emp.tax = sc.nextDouble();
+        employee.tax = sc.nextDouble();
 
-        System.out.println("Name: " + emp);
+        System.out.println("Name: " + employee.toStringStatic());
 
         System.out.println();
         System.out.print("Which percentage to increase to salary? ");
         double percent = sc.nextDouble();
-        emp.increaseSalary(percent);
+        employee.increaseSalary(percent);
 
-        System.out.println("Update data: " + emp);
+        System.out.println("Update data: " + employee.toStringStatic());
 
     }
 

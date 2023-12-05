@@ -2,20 +2,20 @@ package POO.Employee;
 
 public class employee {
 
-    public String name;
-    public double grossSalary;
-    public double tax;
+    public static String name;
+    public static double grossSalary;
+    public static double tax;
 
-    public double liquidSalary() {
+    public static double liquidSalary() {
         return grossSalary - tax;
     }
 
-    public void increaseSalary(double percent) {
+    public static void increaseSalary(double percent) {
         grossSalary += grossSalary * percent / 100;
 
     }
 
-    public String toString() {
+    public static String toStringStatic() {
         return name + ", $" + liquidSalary();
     }
 
