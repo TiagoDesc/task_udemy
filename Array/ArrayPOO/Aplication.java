@@ -2,7 +2,7 @@ package Array.ArrayPOO;
 
 import java.util.Scanner;
 
-//import POO.Product.product;
+import POO.Product.product;
 
 public class Aplication {
 
