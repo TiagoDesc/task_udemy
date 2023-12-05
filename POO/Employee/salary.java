@@ -15,14 +15,14 @@ public class salary {
         System.out.print("Enter the tax: ");
         emp.tax = sc.nextDouble();
 
-        System.out.println("Name: " + emp.name + ", $" + emp.liquidSalary());
+        System.out.println("Name: " + emp);
 
         System.out.println();
         System.out.print("Which percentage to increase to salary? ");
         double percent = sc.nextDouble();
         emp.increaseSalary(percent);
 
-        System.out.println("Update data: " + emp.name + ", $ " + emp.liquidSalary());
+        System.out.println("Update data: " + emp);
 
     }
 
