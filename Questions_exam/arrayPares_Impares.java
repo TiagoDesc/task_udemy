@@ -1,3 +1,5 @@
+package Questions_exam;
+
 import java.util.Scanner;
 
 public class arrayPares_Impares {
