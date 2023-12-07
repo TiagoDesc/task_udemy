@@ -9,58 +9,57 @@ public class temperatura {
     // Imprimir temperaturas negativas;
     // Imprimir a média das temperaturas.
 
-    static int tamanho (){
-        Scanner entrada = new Scanner (System.in);
+    static int tamanho() {
+        Scanner sc = new Scanner(System.in);
         System.out.println("Digite os dias: ");
-        int dias = entrada.nextInt();
+        int dias = sc.nextInt();
         return dias;
 
-
     }
 
-    static int [] criarVetor (int tamanho){
-        Scanner entrada = new Scanner(System.in);
-        int vetor [] = new int [tamanho];
-        for(int i = 0; i < tamanho; i++){
-        System.out.printf("Dia %d: ", i + 1);
-        vetor[i] = entrada.nextInt();
+    static int[] criarVetor(int tamanho) {
+        Scanner sc = new Scanner(System.in);
+        int vetor[] = new int[tamanho];
+        for (int i = 0; i < tamanho; i++) {
+            System.out.printf("Dia %d: ", i + 1);
+            vetor[i] = sc.nextInt();
         }
         return vetor;
-        
+
     }
 
-    static void imprimirMaior (int vetor []){
+    static void imprimirMaior(int vetor[]) {
         int maior = 15;
-        for(int i = 0; i < vetor.length; i++){
-            if(vetor[i] > maior){
+        for (int i = 0; i < vetor.length; i++) {
+            if (vetor[i] > maior) {
                 maior = vetor[i];
                 System.out.printf("%d °C é uma das maiores temperaturas. \n", vetor[i]);
             }
         }
     }
 
-    static void imprimirMenor (int vetor []){
+    static void imprimirMenor(int vetor[]) {
         int menor = 14;
-        for(int i = 0; i < vetor.length; i++){
-            if(vetor[i] < menor) { 
+        for (int i = 0; i < vetor.length; i++) {
+            if (vetor[i] < menor) {
                 menor = vetor[i];
                 System.out.printf("%d °C é uma das menores temperaturas. \n", vetor[i]);
             }
         }
     }
 
-    static void negativo (int vetor []){
-        for(int i = 0; i < vetor.length; i++){
-            if(vetor[i] < 0){
+    static void negativo(int vetor[]) {
+        for (int i = 0; i < vetor.length; i++) {
+            if (vetor[i] < 0) {
                 System.out.printf("%d é negativo. \n", vetor[i]);
             }
         }
 
     }
 
-    static double media (int vetor []){
+    static double media(int vetor[]) {
         int soma = 0;
-        for(int i = 0; i < vetor.length; i++){
+        for (int i = 0; i < vetor.length; i++) {
             soma += vetor[i];
         }
 
@@ -71,12 +70,11 @@ public class temperatura {
 
     public static void main(String[] args) {
         int tamanho = tamanho();
-        int vetor [] = criarVetor(tamanho);
+        int vetor[] = criarVetor(tamanho);
         imprimirMaior(vetor);
         imprimirMenor(vetor);
         negativo(vetor);
         media(vetor);
     }
 
-    
 }
