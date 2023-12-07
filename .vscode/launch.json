@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "temperatura",
+            "request": "launch",
+            "mainClass": "Questions_exam.temperatura",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "Aplication",
             "request": "launch",
             "mainClass": "Array.ArrayPOO.Aplication",
