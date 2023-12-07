@@ -1,3 +1,5 @@
+package Matriz;
+
 import java.util.Scanner;
 
 public class relogio_matriz {
