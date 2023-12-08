@@ -13,6 +13,10 @@ public class Negative {
         for (int i = 0; i < n; i++) {
             System.out.println("Digite um número: ");
             vet[i] = sc.nextInt();
+
+        }
+
+        for (int i = 0; i < n; i++) {
             if (vet[i] < 0) {
                 System.out.println("Os números negativos são: " + vet[i]);
             }
