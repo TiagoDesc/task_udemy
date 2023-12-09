@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aplication",
+            "request": "launch",
+            "mainClass": "Array.Alturas.Aplication",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "soma_vetores",
             "request": "launch",
             "mainClass": "Array.soma_vetores",
