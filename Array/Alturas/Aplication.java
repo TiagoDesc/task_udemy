@@ -13,7 +13,7 @@ public class Aplication {
         int n, nmenores;
         double alturatotal, alturamedia, percentualMenores;
 
-        System.out.print("Quantas pessoas serao digitadas? ");
+        System.out.print("Quantas pessoas serão digitadas? ");
         n = sc.nextInt();
 
         String[] nomes = new String[n];
