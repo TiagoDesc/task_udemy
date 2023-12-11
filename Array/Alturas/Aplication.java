@@ -42,7 +42,7 @@ public class Aplication {
         alturamedia = alturatotal / n;
         percentualMenores = ((double) nmenores / n) * 100.0;
 
-        System.out.printf("\nAltura media = %.2f\n", alturamedia);
+        System.out.printf("\nAltura média = %.2f\n", alturamedia);
         System.out.printf("Pessoas com menos de 16 anos: %.1f%%\n", percentualMenores);
 
         for (int i = 0; i < n; i++) {
