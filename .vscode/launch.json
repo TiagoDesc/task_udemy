@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "numeros_pares",
+            "request": "launch",
+            "mainClass": "Array.numeros_pares",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "altura",
             "request": "launch",
             "mainClass": "Array.Altura.altura",
