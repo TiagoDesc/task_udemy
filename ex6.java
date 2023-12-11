@@ -6,6 +6,7 @@ public class ex6 {
         Scanner entrada = new Scanner(System.in);
 
         char user = 'y';
+        double carrinho = 0;
 
         while (user == 'y') {
 
@@ -15,6 +16,7 @@ public class ex6 {
             int quantidade = entrada.nextInt();
 
             double total;
+
             if (codigo == 1) {
                 total = quantidade * 4;
 
@@ -32,10 +34,12 @@ public class ex6 {
 
             }
 
+            carrinho += total;
+
             System.out.printf("O total da compra fica em: R$ %.2f", total);
             System.out.println("");
+            System.out.println("O valor total dos itens que foram incrementados anteriormente é de: R$" + carrinho);
             System.out.println("Deseja refazer a compra? y = Sim, n = Não.");
-
             user = entrada.next().charAt(0);
 
         }
