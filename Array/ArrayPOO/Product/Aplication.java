@@ -1,4 +1,4 @@
-package Array.ArrayPOO;
+package Array.ArrayPOO.Product;
 
 import java.util.Scanner;
 
