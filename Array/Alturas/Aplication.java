@@ -13,7 +13,9 @@ public class Aplication {
         // anos...
         // e estrutura para pegar a altura total.
         // Realizar a altura média.
-        // Mostrar a porcentagem das pessoas com menos de 16 anos.
+        // Realizar a porcentagem das pessoas com menos de 16 anos.
+        // Imprimir a altura média.
+        // Imprimir a porcentagem das pessoas com menos de 16 anos.
         // Imprimir os nomes das pessoas menores que 16 anos.
 
         Locale.setDefault(Locale.US);
