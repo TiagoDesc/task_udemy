@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "altura",
+            "request": "launch",
+            "mainClass": "Array.Altura.altura",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "Aplication",
             "request": "launch",
             "mainClass": "Array.Alturas.Aplication",
