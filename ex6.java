@@ -36,9 +36,9 @@ public class ex6 {
 
             carrinho += total;
 
-            System.out.printf("O total da compra fica em: R$ %.2f", total);
+            System.out.printf("O valor do seu pedido fica em: R$ %.2f", total);
             System.out.println("");
-            System.out.println("O valor total dos itens que foram incrementados anteriormente é de: R$" + carrinho);
+            System.out.printf("O valor total do seu carrinho de comprar é de: R$%.2f\n", carrinho);
             System.out.println("Deseja refazer a compra? y = Sim, n = Não.");
             user = entrada.next().charAt(0);
 
