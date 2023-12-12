@@ -7,17 +7,17 @@ public class Aplication {
 
     public static void main(String[] args) {
 
-        // Digitar o número de pessoas.
-        // Instanciar os arrays - nomes, idades, alturas.
-        // Puxar os dados das pessoas - Scanner.
-        // Estrutura for para verificar a quantidade de pessoas menores do que 16
-        // anos...
-        // e estrutura para pegar a altura total.
-        // Realizar a altura média.
-        // Realizar a porcentagem das pessoas com menos de 16 anos.
-        // Imprimir a altura média.
-        // Imprimir a porcentagem das pessoas com menos de 16 anos.
-        // Imprimir os nomes das pessoas menores que 16 anos.
+        // Enter the number of people.
+        // Instantiate the arrays - names, ages, heights.
+        // Catch people´s data - Scanner;
+        // 'for' structure to check the number of people under 16
+        // years...
+        // and structure to catch the full heigth.
+        // Make the average height.
+        // Calculate the percentage of people under 16 years old.
+        // Print the average height.
+        // Print the percentage of people under 16 years old.
+        // Print the names of people under 16 years old.
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
