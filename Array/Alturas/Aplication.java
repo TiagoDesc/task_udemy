@@ -22,48 +22,46 @@ public class Aplication {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        int n, nmenores;
-        double alturatotal, alturamedia, percentualMenores;
+        int n, smallNumber;
+        double totalHeight, avgHeight, percentSmall;
 
-        System.out.print("Digite o número de pessoas: ");
+        System.out.println("Enter the number of people: ");
         n = sc.nextInt();
 
-        String nomes[] = new String[n];
-        int idades[] = new int[n];
-        double alturas[] = new double[n];
+        String name[] = new String[n];
+        int age[] = new int[n];
+        double height[] = new double[n];
 
         for (int i = 0; i < n; i++) {
-            System.out.printf("Dados da %da pessoa: \n", i + 1);
-            System.out.print("Nome: ");
-            nomes[i] = sc.next();
-            System.out.print("Idade: ");
-            idades[i] = sc.nextInt();
-            System.out.print("Altura: ");
-            alturas[i] = sc.nextDouble();
+            System.out.printf("Data of %d° person: \n", i + 1);
+            System.out.print("Name: ");
+            name[i] = sc.next();
+            System.out.print("Age: ");
+            age[i] = sc.nextInt();
+            System.out.print("Height: ");
+            height[i] = sc.nextDouble();
         }
 
-        nmenores = 0;
-        alturatotal = 0;
-
+        smallNumber = 0;
+        totalHeight = 0;
         for (int i = 0; i < n; i++) {
-            if (idades[i] < 16) {
-                nmenores++;
+            if (age[i] < 16) {
+                smallNumber++;
             }
-            alturatotal += alturas[i];
+            totalHeight += height[i];
         }
 
-        alturamedia = alturatotal / n;
-        percentualMenores = ((double) nmenores / n) * 100;
+        avgHeight = totalHeight / n;
+        percentSmall = ((double) smallNumber / n) * 100;
 
-        System.out.printf("\nAltura media = %.2f\n", alturamedia);
-        System.out.printf("Pessoas com menos de 16 anos: %.1f%%\n", percentualMenores);
+        System.out.printf("The average height is %.2fm2\n", avgHeight);
+        System.out.printf("The number of people under 16 years old is: %.1f%%\n", percentSmall);
 
         for (int i = 0; i < n; i++) {
-            if (idades[i] < 16) {
-                System.out.println("Pessoas menores que 16 anos: " + nomes[i]);
+            if (age[i] < 16) {
+                System.out.println("Under 16 years old: " + name[i]);
             }
         }
-
         sc.close();
     }
 }
