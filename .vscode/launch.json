@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maior_posicao",
+            "request": "launch",
+            "mainClass": "Array.any_questions.maior_posicao",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "soma_valores",
             "request": "launch",
             "mainClass": "Array.any_questions.soma_valores",
