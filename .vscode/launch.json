@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "soma_valores",
+            "request": "launch",
+            "mainClass": "Array.any_questions.soma_valores",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "numeros_pares",
             "request": "launch",
             "mainClass": "Array.numeros_pares",

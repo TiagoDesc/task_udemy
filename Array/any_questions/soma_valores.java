@@ -9,25 +9,22 @@ public class soma_valores {
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-
         int n;
+        double soma = 0;
 
         System.out.print("Quantos valores vai ter cada vetor? ");
         n = sc.nextInt();
-
-        int[] a = new int[n];
-        int[] b = new int[n];
-        int[] c = new int[n];
-
-        System.out.println("Digite os valores do vetor A:");
+        int a[] = new int[n];
+        int b[] = new int[n];
+        int c[] = new int[n];
 
         for (int i = 0; i < n; i++) {
+            System.out.print("Digite os valores do vetor A: ");
             a[i] = sc.nextInt();
         }
 
-        System.out.println("Digite os valores do vetor B:");
-
         for (int i = 0; i < n; i++) {
+            System.out.print("Digite os vslores do vetor B: ");
             b[i] = sc.nextInt();
         }
 
@@ -35,13 +32,13 @@ public class soma_valores {
             c[i] = a[i] + b[i];
         }
 
-        System.out.println("VETOR RESULTANTE:");
-
+        System.out.println("Valor resultante: ");
         for (int i = 0; i < n; i++) {
-            System.out.printf("%d\n", c[i]);
+            System.out.printf("%d \n", c[i]);
+            soma += c[i];
         }
 
-        sc.close();
+        System.out.println("Valor total dos produtos: " + soma);
     }
 
 }
