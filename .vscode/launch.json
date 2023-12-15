@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Negative",
+            "request": "launch",
+            "mainClass": "Array.any_questions.Negative",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "maior_posicao",
             "request": "launch",
             "mainClass": "Array.any_questions.maior_posicao",
