@@ -2,7 +2,7 @@ package Array.any_questions;
 
 import java.util.Scanner;
 
-public class maior_posicao {
+public class bigger_position {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
