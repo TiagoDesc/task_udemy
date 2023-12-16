@@ -8,9 +8,9 @@ public class abaixo_media {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
         int n;
-        double soma, media;
+        double sum, avg;
 
-        System.out.println("Digite o valor do vetor: ");
+        System.out.println("Type the value of vect: ");
         n = sc.nextInt();
         double vect[] = new double[n];
 
@@ -20,19 +20,19 @@ public class abaixo_media {
         }
         System.out.println();
 
-        soma = 0;
+        sum = 0;
         for (int i = 0; i < n; i++) {
-            soma += vect[i];
+            sum += vect[i];
         }
 
-        media = soma / n;
+        avg = sum / n;
 
-        System.out.println("Média do vetor: " + media);
+        System.out.println("Average of vect: " + avg);
 
-        System.out.println("Elementos abaixo da média: ");
+        System.out.println("Below average elements: ");
         System.out.println();
         for (int i = 0; i < n; i++) {
-            if (vect[i] < media) {
+            if (vect[i] < avg) {
                 System.out.println(vect[i]);
             }
         }
