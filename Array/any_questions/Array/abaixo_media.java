@@ -28,7 +28,6 @@ public class abaixo_media {
         avg = sum / n;
 
         System.out.println("Vect average: " + avg);
-
         System.out.println("Below average elements: ");
         for (int i = 0; i < n; i++) {
             if (vect[i] < avg) {
