@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "abaixo_media",
+            "request": "launch",
+            "mainClass": "Array.abaixo_media",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "Negative",
             "request": "launch",
             "mainClass": "Array.any_questions.Negative",
