@@ -10,7 +10,7 @@ public class abaixo_media {
         int n;
         double sum, avg;
 
-        System.out.println("Type the value of vect: ");
+        System.out.println("Enter the vect value: ");
         n = sc.nextInt();
         double vect[] = new double[n];
 
@@ -27,7 +27,7 @@ public class abaixo_media {
 
         avg = sum / n;
 
-        System.out.println("Average of vect: " + avg);
+        System.out.println("Vect average: " + avg);
 
         System.out.println("Below average elements: ");
         System.out.println();
