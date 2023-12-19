@@ -9,7 +9,6 @@ public class inss {
         double salario;
         double desconto;
         double discount;
-        double result;
         double total;
         int user = 1;
         while (user == 1) {
