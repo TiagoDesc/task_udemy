@@ -72,6 +72,7 @@ public class inss {
 
             }
         }
+        sc.close();
 
         System.out.println("Obrigado, volte sempre!");
     }
