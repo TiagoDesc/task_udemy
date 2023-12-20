@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "media_pares",
+            "request": "launch",
+            "mainClass": "Array.any_questions.media_pares",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "inss",
             "request": "launch",
             "mainClass": "Questions_exam.inss",
