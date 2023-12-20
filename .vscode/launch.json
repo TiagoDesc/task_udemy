@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "approved",
+            "request": "launch",
+            "mainClass": "Array.any_questions.approved",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "mais_velho",
             "request": "launch",
             "mainClass": "Array.any_questions.mais_velho",
