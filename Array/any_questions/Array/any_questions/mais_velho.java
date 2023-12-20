@@ -33,6 +33,7 @@ public class mais_velho {
         for (int i = 0; i < n; i++) {
             if (old == age[i]) {
                 System.out.println("The oldest is: " + name[i]);
+                System.out.println(name[i] + " is " + old + " years old.");
             }
         }
 
