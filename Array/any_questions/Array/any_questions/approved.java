@@ -6,8 +6,7 @@ import java.util.Scanner;
 public class approved {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
         System.out.println("Enter the number of students: ");
         int n = sc.nextInt();
 
@@ -17,13 +16,14 @@ public class approved {
         double grade2[] = new double[n];
 
         for (int i = 0; i < n; i++) {
-            System.out.print("Enter the student's name: ");
+            System.out.printf("Enter student number %d details below: \n", i + 1);
             sc.nextLine();
             name[i] = sc.nextLine();
             System.out.print("Enter your first semester grade: ");
             grade1[i] = sc.nextDouble();
             System.out.print("Enter your second semester grade: ");
             grade2[i] = sc.nextDouble();
+            System.out.println();
         }
 
         for (int i = 0; i < n; i++) {
