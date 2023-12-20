@@ -18,6 +18,7 @@ public class approved {
         for (int i = 0; i < n; i++) {
             System.out.printf("Enter student number %d details below: \n", i + 1);
             sc.nextLine();
+            System.out.println("Enter the name: ");
             name[i] = sc.nextLine();
             System.out.print("Enter your first semester grade: ");
             grade1[i] = sc.nextDouble();
