@@ -27,14 +27,23 @@ public class approved {
             System.out.println();
         }
 
+        System.out.println("Approved Students:");
         for (int i = 0; i < n; i++) {
             avg = (grade1[i] + grade2[i]) / 2;
             if (avg >= 6) {
-                System.out.println("Approved students: " + name[i]);
-                System.out.println("Your average is: " + avg);
-            } else {
-                System.out.println("Failed students: " + name[i]);
-                System.out.println("Your average is: " + avg);
+                System.out.println(name[i]);
+                System.out.println("Average: " + avg);
+                System.out.println();
+            }
+        }
+
+        System.out.println("Failed Students:");
+        for (int i = 0; i < n; i++) {
+            avg = (grade1[i] + grade2[i]) / 2;
+            if (avg < 6) {
+                System.out.println(name[i]);
+                System.out.println("Average: " + avg);
+                System.out.println();
             }
         }
 
