@@ -31,8 +31,8 @@ public class approved {
         for (int i = 0; i < n; i++) {
             avg = (grade1[i] + grade2[i]) / 2;
             if (avg >= 6) {
-                System.out.println(name[i]);
-                System.out.println("Average: " + avg);
+                System.out.print(name[i]);
+                System.out.println(" - average = " + avg);
                 System.out.println();
             }
         }
@@ -41,8 +41,8 @@ public class approved {
         for (int i = 0; i < n; i++) {
             avg = (grade1[i] + grade2[i]) / 2;
             if (avg < 6) {
-                System.out.println(name[i]);
-                System.out.println("Average: " + avg);
+                System.out.print(name[i]);
+                System.out.println(" - average = " + avg);
                 System.out.println();
             }
         }
