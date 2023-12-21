@@ -18,7 +18,6 @@ public class people_data {
         for (int i = 0; i < n; i++) {
             System.out.printf("Data of %d° person: \n", i + 1);
             System.out.print("Enter the height: ");
-            sc.nextDouble();
             height[i] = sc.nextDouble();
             System.out.print("Enter the gender: ");
             gender[i] = sc.next().charAt(0);
@@ -42,7 +41,7 @@ public class people_data {
         double sum = 0;
         for (int i = 0; i < n; i++) {
             if (gender[i] == 'f') {
-                sum += gender[i];
+                sum += height[i];
                 f++;
             }
         }
