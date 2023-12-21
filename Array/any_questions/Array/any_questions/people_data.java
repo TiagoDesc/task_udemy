@@ -55,10 +55,10 @@ public class people_data {
         avg = sum / f;
 
         System.out.println();
-        System.out.println("The height bigger is: " + bigger + "M");
-        System.out.println("The height smaller is: " + smaller + "M");
-        System.out.printf("The height average is %.2f ", avg, "M");
-        System.out.println("The amouunt of mans is: " + m);
+        System.out.println("The height bigger is: " + bigger + "m");
+        System.out.println("The height smaller is: " + smaller + "m");
+        System.out.printf("The height average is: %.2f \n", avg, "m");
+        System.out.printf("The amouunt of mans is: %.1f", m);
 
         sc.close();
     }
