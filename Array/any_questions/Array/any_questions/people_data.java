@@ -1,10 +1,12 @@
 package Array.any_questions;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class people_data {
 
     public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of people: ");
         int n = sc.nextInt();
@@ -12,6 +14,8 @@ public class people_data {
         double smaller;
         int f = 0;
         int m = 0;
+        double avg = 0;
+        double sum = 0;
         double height[] = new double[n];
         char gender[] = new char[n];
 
@@ -37,8 +41,6 @@ public class people_data {
             }
         }
 
-        double avg = 0;
-        double sum = 0;
         for (int i = 0; i < n; i++) {
             if (gender[i] == 'f') {
                 sum += height[i];
@@ -55,10 +57,10 @@ public class people_data {
         avg = sum / f;
 
         System.out.println();
-        System.out.println("The height bigger is: " + bigger + "m");
-        System.out.println("The height smaller is: " + smaller + "m");
-        System.out.printf("The height average is: %.2f \n", avg, "m");
-        System.out.printf("The amouunt of mans is: %d", m);
+        System.out.println("The greatest height is: " + bigger + "m");
+        System.out.println("The smallest height is:: " + smaller + "m");
+        System.out.printf("The average height of woman is: %.2fm \n", avg);
+        System.out.printf("The number of man is: %d", m);
 
         sc.close();
     }
