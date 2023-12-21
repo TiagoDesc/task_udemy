@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "people_data",
+            "request": "launch",
+            "mainClass": "Array.any_questions.people_data",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "approved",
             "request": "launch",
             "mainClass": "Array.any_questions.approved",
