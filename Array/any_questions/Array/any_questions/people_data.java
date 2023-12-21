@@ -42,14 +42,14 @@ public class people_data {
         }
 
         for (int i = 0; i < n; i++) {
-            if (gender[i] == 'f') {
+            if (gender[i] == 'f' || gender[i] == 'F') {
                 sum += height[i];
                 f++;
             }
         }
 
         for (int i = 0; i < n; i++) {
-            if (gender[i] == 'm') {
+            if (gender[i] == 'm' || gender[i] == 'M') {
                 m++;
             }
         }
