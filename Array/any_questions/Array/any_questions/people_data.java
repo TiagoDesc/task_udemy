@@ -56,9 +56,9 @@ public class people_data {
 
         System.out.println();
         System.out.println("The height bigger is: " + bigger + "M");
-        System.out.println("The height smaller is: " + smaller);
-        System.out.println("The height average is: " + avg);
-        System.out.printf("The amouunt of mans is: %.2f", m);
+        System.out.println("The height smaller is: " + smaller + "M");
+        System.out.println("The height average is: " + avg + "M");
+        System.out.printf("The amouunt of mans is: %.2f", m, "M");
 
         sc.close();
     }
