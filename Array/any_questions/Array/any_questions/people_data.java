@@ -10,8 +10,8 @@ public class people_data {
         int n = sc.nextInt();
         double bigger;
         double smaller;
-        double f = 0;
-        double m = 0;
+        int f = 0;
+        int m = 0;
         double height[] = new double[n];
         char gender[] = new char[n];
 
@@ -58,7 +58,7 @@ public class people_data {
         System.out.println("The height bigger is: " + bigger + "m");
         System.out.println("The height smaller is: " + smaller + "m");
         System.out.printf("The height average is: %.2f \n", avg, "m");
-        System.out.printf("The amouunt of mans is: %.1f", m);
+        System.out.printf("The amouunt of mans is: %d", m);
 
         sc.close();
     }
