@@ -55,6 +55,8 @@ public class fuel {
                 System.out.println(" ");
                 System.out.println("Thanks for preference, come back often!");
             }
+
+            sc.close();
         }
 
     }
