@@ -14,11 +14,11 @@ public class fuel {
         int user;
 
         System.out.println("Enter the type of fuel you want: 1 - Gasoline, 2 - Ethanol.");
-        user = input.nextInt();
+        user = sc.nextInt();
 
         if (user == 1) {
             System.out.println("Type the amount of gasoline what you want: ");
-            liters_gasoline = input.nextDouble();
+            liters_gasoline = sc.nextDouble();
 
             if (liters_gasoline > 10) {
                 valueTotal = liters_gasoline * liters1;
@@ -36,12 +36,12 @@ public class fuel {
         } else if (user != 1 && user != 2) {
             System.out.println("Type only the number 1 - (For Gasoline) or 2 - (For Ethanol).");
             System.out.println("Type the number again: ");
-            user = input.nextInt();
+            user = sc.nextInt();
         }
 
         if (user == 2) {
             System.out.println("Type the amount of Ethanol what you want: ");
-            liters_ethanol = input.nextDouble();
+            liters_ethanol = sc.nextDouble();
 
             if (liters_ethanol > 10) {
                 valueTotal = liters_ethanol * liters2;
