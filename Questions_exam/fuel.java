@@ -24,13 +24,13 @@ public class fuel {
                 valueTotal = liters_gasoline * liters1;
                 discount = valueTotal * 0.1;
                 System.out.printf("The value total is: $%.2f", (valueTotal - discount));
-                System.out.println(" ");
+                System.out.println();
                 System.out.println("Thanks for the preference, come back often!");
 
             } else {
                 valueTotal = liters_gasoline * liters1;
                 System.out.printf("The value total is: $%.2f", valueTotal);
-                System.out.println(" ");
+                System.out.println();
                 System.out.println("Thanks for the preference, come back often!");
             }
         } else if (user != 1 && user != 2) {
@@ -52,7 +52,7 @@ public class fuel {
             } else {
                 valueTotal = liters_ethanol * liters2;
                 System.out.printf("The value total is: $%.2f ", valueTotal);
-                System.out.println(" ");
+                System.out.println();
                 System.out.println("Thanks for preference, come back often!");
             }
 
