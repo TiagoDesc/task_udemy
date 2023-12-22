@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class fuel {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         double valueTotal, discount = 0;
         double liters_gasoline;
         double liters_ethanol;
