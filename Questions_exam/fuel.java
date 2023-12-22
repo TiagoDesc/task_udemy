@@ -47,7 +47,7 @@ public class fuel {
                 valueTotal = liters_ethanol * liters2;
                 discount = valueTotal * 0.1;
                 System.out.printf("The value total is: $%.2f ", (valueTotal - discount));
-                System.out.println(" ");
+                System.out.println();
                 System.out.println("Thanks for preference, come back often!");
             } else {
                 valueTotal = liters_ethanol * liters2;

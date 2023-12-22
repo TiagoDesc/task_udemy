@@ -7,6 +7,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fuel",
+            "request": "launch",
+            "mainClass": "Questions_exam.fuel",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "people_data",
             "request": "launch",
             "mainClass": "Array.any_questions.people_data",
