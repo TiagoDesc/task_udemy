@@ -26,6 +26,8 @@ public class altura {
         double average = sum / n;
 
         System.out.printf("The heigth average is: %.2fm.", average);
+
+        sc.close();
     }
 
 }
