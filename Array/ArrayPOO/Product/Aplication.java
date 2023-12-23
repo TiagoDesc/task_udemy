@@ -1,5 +1,6 @@
 package Array.ArrayPOO.Product;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 import POO.Product.product;
@@ -7,6 +8,7 @@ import POO.Product.product;
 public class Aplication {
 
     public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number of products: ");
         int n = sc.nextInt();
