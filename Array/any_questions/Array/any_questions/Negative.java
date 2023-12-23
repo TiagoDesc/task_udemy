@@ -21,6 +21,8 @@ public class Negative {
                 System.out.println("Os números negativos são: " + vet[i]);
             }
         }
+
+        sc.close();
     }
 
 }
