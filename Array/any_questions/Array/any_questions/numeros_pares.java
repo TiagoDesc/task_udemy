@@ -26,6 +26,8 @@ public class numeros_pares {
 
         System.out.println("Quantity of even numbers: " + qttyEven);
 
+        sc.close();
+
     }
 
 }
