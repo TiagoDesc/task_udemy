@@ -31,6 +31,8 @@ public class soma_vetores {
         double media = soma / n;
         System.out.println("A média é: " + media); // Imprimindo o resultado da média.
 
+        sc.close();
+
     }
 
 }
