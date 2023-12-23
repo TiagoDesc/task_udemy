@@ -42,6 +42,8 @@ public class soma_valores {
 
         System.out.println("The total value of vects is: " + sum);
 
+        sc.close();
+
     }
 
 }
