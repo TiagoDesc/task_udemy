@@ -42,5 +42,7 @@ public class Aplication {
 
         }
 
+        sc.close();
+
     }
 }
