@@ -77,6 +77,7 @@ public class temperatura {
         imprimirMenor(vetor);
         negativo(vetor);
         media(vetor);
+
     }
 
 }
