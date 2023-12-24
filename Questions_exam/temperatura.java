@@ -26,6 +26,8 @@ public class temperatura {
             System.out.printf("Dia %d: ", i + 1);
             vetor[i] = sc.nextInt();
         }
+
+        sc.close();
         return vetor;
 
     }
