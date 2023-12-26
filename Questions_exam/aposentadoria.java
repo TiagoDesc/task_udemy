@@ -30,5 +30,7 @@ public class aposentadoria {
         int monthLeft = month % 12;
 
         System.out.println("You will reach the goal in " + year + " year(s) and " + monthLeft + " months.");
+
+        sc.close();
     }
 }
