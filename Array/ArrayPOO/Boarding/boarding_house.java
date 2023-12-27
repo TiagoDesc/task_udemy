@@ -7,7 +7,7 @@ public class boarding_house {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        Rent[] vect = new Rent[10];
+        Rent vect[] = new Rent[10];
 
         System.out.print("How many rooms will be ranted? ");
         int n = sc.nextInt();
@@ -34,6 +34,8 @@ public class boarding_house {
                 System.out.println(i + ": " + vect[i]);
             }
         }
+
+        sc.close();
 
     }
 
