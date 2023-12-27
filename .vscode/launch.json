@@ -7,6 +7,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boarding_house",
+            "request": "launch",
+            "mainClass": "Array.any_questions.boarding_house",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "Aplication",
             "request": "launch",
             "mainClass": "Array.ArrayPOO.Product.Aplication",
