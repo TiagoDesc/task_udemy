@@ -2,8 +2,8 @@ package Array.ArrayPOO.Boarding;
 
 public class Rent {
 
-    String name;
-    String email;
+    private String name;
+    private String email;
 
     public Rent(String name, String email) {
         this.name = name;
