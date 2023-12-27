@@ -1,4 +1,4 @@
-package Array.any_questions;
+package Array.ArrayPOO.Boarding;
 
 import java.util.Scanner;
 
