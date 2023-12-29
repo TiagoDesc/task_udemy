@@ -7,6 +7,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Beggin",
+            "request": "launch",
+            "mainClass": "Listas.Beggin",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "approved",
             "request": "launch",
             "mainClass": "Array.Lesson.approved",
