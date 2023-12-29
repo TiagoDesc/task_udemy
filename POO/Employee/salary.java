@@ -23,6 +23,7 @@ public class salary {
 
         System.out.println("Update data: " + employee.toStringStatic());
 
+        sc.close();
     }
 
 }
