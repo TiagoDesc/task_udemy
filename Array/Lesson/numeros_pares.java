@@ -1,4 +1,4 @@
-package Array.any_questions;
+package Array.Lesson;
 
 import java.util.Scanner;
 
