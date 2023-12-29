@@ -7,6 +7,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "approved",
+            "request": "launch",
+            "mainClass": "Array.Lesson.approved",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "bigger_position",
             "request": "launch",
             "mainClass": "Array.any_questions.bigger_position",
