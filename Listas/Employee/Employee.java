@@ -41,7 +41,7 @@ public class Employee {
     }
 
     public void increaseSalary(double percentage) {
-        salary * percentage / 100;
+        salary += salary * percentage / 100;
     }
 
 }
