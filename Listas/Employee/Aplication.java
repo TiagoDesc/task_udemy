@@ -13,6 +13,20 @@ public class Aplication {
 
         List<Employee> list = new ArrayList<>();
         System.out.print("How many employees will be registered?");
+        int n = sc.nextInt();
+
+        for (int i = 0; i < n; i++) {
+            System.out.println("Employee #" + (i + 1) + ":");
+            System.out.print("Id: ");
+            Integer id = sc.nextInt();
+            System.out.print("Name: ");
+            sc.nextLine();
+            String name = sc.nextLine();
+            System.out.print("Salary: ");
+            Double salary = sc.nextDouble();
+
+            Employee emp = new Employee(id, name, salary);
+        }
 
     }
 
