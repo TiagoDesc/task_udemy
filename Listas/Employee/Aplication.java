@@ -5,8 +5,6 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-import POO.Employee.employee;
-
 public class Aplication {
 
     public static void main(String[] args) {
