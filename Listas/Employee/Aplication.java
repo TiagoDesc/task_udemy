@@ -37,6 +37,16 @@ public class Aplication {
         Integer pos = position(list, idSalary);
         if (pos == null) {
             System.out.println("This id not exits!");
+        } else {
+            System.out.print("Enter the percentage: ");
+            double percent = sc.nextDouble();
+            list.get(pos).increaseSalary(percent);
+        }
+
+        System.out.println();
+        System.out.println("List of employees: ");
+        for (Employee emp : list) {
+            System.out.println(emp);
         }
     }
 

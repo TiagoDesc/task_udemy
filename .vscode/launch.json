@@ -7,6 +7,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aplication",
+            "request": "launch",
+            "mainClass": "Listas.Employee.Aplication",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "Beggin",
             "request": "launch",
             "mainClass": "Listas.Beggin",
