@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
+import POO.Employee.employee;
+
 public class Aplication {
 
     public static void main(String[] args) {
@@ -26,8 +28,25 @@ public class Aplication {
             Double salary = sc.nextDouble();
 
             Employee emp = new Employee(id, name, salary);
+            list.add(emp);
+
         }
 
+        System.out.println("Enter the employee id that will have salary increased: ");
+        int idSalary = sc.nextInt();
+        Integer pos = position(list, idSalary);
+        if (pos == null) {
+            System.out.println("This id not exits!");
+        }
+    }
+
+    public static Integer position(List<Employee> list, int id) {
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).getId() == id) {
+                return i;
+            }
+        }
+        return null;
     }
 
 }
