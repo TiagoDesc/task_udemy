@@ -10,6 +10,20 @@ public class ordem {
         int n = sc.nextInt();
         int[][] matriz = new int[n][n];
 
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.println("Enter: ");
+                matriz[i][j] = sc.nextInt();
+            }
+
+        }
+
+        for (int i = 0; i < n; i++) {
+            System.out.print(matriz[i][i] + " ");
+        }
+
+        int count = 0;
+
     }
 
 }
