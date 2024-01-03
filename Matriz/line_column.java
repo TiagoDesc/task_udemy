@@ -10,7 +10,7 @@ public class line_column {
         System.out.print("Enter the number of lines: ");
         int m = sc.nextInt();
 
-        System.out.print("Enter the number: ");
+        System.out.print("Enter the number of columns: ");
         int n = sc.nextInt();
 
         int[][] matriz = new int[m][n];
