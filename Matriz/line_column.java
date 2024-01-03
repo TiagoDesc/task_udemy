@@ -15,6 +15,7 @@ public class line_column {
 
         int[][] matriz = new int[m][n];
 
+        System.out.println("Enter the numbers according to the row and column numbers: ");
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
                 matriz[i][j] = sc.nextInt();
