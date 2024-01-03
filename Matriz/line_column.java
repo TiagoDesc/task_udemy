@@ -29,6 +29,7 @@ public class line_column {
             for (int j = 0; j < matriz[i].length; j++) {
                 if (matriz[i][j] == x) {
                     System.out.println("Position " + i + "," + j + ":");
+                    System.out.println();
                     if (j > 0) {
                         System.out.println("Left: " + matriz[i][j - 1]);
                     }
