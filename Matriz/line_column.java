@@ -43,6 +43,8 @@ public class line_column {
                 }
             }
         }
+
+        sc.close();
     }
 
 }
