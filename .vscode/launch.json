@@ -7,6 +7,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "line_column",
+            "request": "launch",
+            "mainClass": "Matriz.line_column",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "ordem",
             "request": "launch",
             "mainClass": "Matriz.ordem",
