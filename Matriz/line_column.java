@@ -7,7 +7,7 @@ public class line_column {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the number: ");
+        System.out.print("Enter the number of lines: ");
         int m = sc.nextInt();
 
         System.out.print("Enter the number: ");
