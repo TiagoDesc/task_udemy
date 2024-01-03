@@ -23,6 +23,7 @@ public class line_column {
 
         System.out.println("Insert a number that belongs to the matrix: ");
         int x = sc.nextInt();
+        System.out.println();
 
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
