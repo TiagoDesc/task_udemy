@@ -26,6 +26,7 @@ public class Locale {
         LocalDate d09 = LocalDate.parse("20/07/2022 01:30", fmt2);
 
         LocalDate d10 = LocalDate.of(2022, 7, 10);
+        LocalDateTime d11 = LocalDateTime.of(2022, 7, 10, 1, 30, 0);
 
         System.out.println("d01 = " + d01.toString());
         System.out.println("d02 = " + d02.toString());
@@ -37,6 +38,7 @@ public class Locale {
         System.out.println("d08 = " + d08.toString());
         System.out.println("d09 = " + d09.toString());
         System.out.println("d10 = " + d10.toString());
+        System.out.println("d11 = " + d11.toString());
 
     }
 
