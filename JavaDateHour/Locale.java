@@ -11,6 +11,10 @@ public class Locale {
         LocalDateTime d02 = LocalDateTime.now();
         Instant d03 = Instant.now();
 
+        System.out.println("d01 = " + d01);
+        System.out.println("d02 = " + d02);
+        System.out.println("d03 = " + d03);
+
     }
 
 }
