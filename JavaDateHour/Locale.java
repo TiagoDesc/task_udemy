@@ -19,8 +19,8 @@ public class Locale {
 
         LocalDate d04 = LocalDate.parse("2022-07-20");
         LocalDateTime d05 = LocalDateTime.parse("2022-07-20T01:30:26");
-        Instant d06 = Instant.parse("2022-07-20T01:30:26Z");
-        Instant d07 = Instant.parse("2022-07-20T01:30:26-03:00");
+        Instant d06 = Instant.parse("2022-07-20T01:30:26Z"); // London time.
+        Instant d07 = Instant.parse("2022-07-20T01:30:26-03:00"); // São Paulo time.
 
         LocalDate d08 = LocalDate.parse("20/07/2022", fmt1);
         LocalDate d09 = LocalDate.parse("20/07/2022 01:30", fmt2);
