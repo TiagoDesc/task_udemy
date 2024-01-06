@@ -19,8 +19,8 @@ public class ConverterDate {
         DateTimeFormatter fmt3 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm").withZone(ZoneId.systemDefault());
 
         System.out.println("d04 = " + d04.format(fmt1));
-        System.out.println("d05 = " + fmt1.format(d04));
-        System.out.println("d06 = " + d06);
+        System.out.println("d04 = " + fmt1.format(d04));
+        System.out.println("d04 = " + d04.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
     }
 
 }
