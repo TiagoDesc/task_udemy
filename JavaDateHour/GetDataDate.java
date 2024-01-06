@@ -32,7 +32,7 @@ public class GetDataDate {
 
         System.out.println("d05 hora = " + d05.getHour());
         System.out.println("d05 minutos = " + d05.getMinute());
-        System.out.println("d05 minutos = " + d05.getSecond());
+        System.out.println("d05 segundos = " + d05.getSecond());
     }
 
 }
