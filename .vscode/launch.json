@@ -7,6 +7,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GetDataDate",
+            "request": "launch",
+            "mainClass": "JavaDateHour.GetDataDate",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "ConverterDate",
             "request": "launch",
             "mainClass": "JavaDateHour.ConverterDate",
