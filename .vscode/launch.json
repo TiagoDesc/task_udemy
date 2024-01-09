@@ -7,6 +7,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Week",
+            "request": "launch",
+            "mainClass": "JavaDateHour.Week",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "GetDataDate",
             "request": "launch",
             "mainClass": "JavaDateHour.GetDataDate",
