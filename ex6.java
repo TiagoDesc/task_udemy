@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ex6 {
 
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         char user = 'y';
         double carrinho = 0;
@@ -11,9 +11,9 @@ public class ex6 {
         while (user == 'y') {
 
             System.out.println("Digite o código: ");
-            int codigo = entrada.nextInt();
+            int codigo = sc.nextInt();
             System.out.println("Digite a quantidade: ");
-            int quantidade = entrada.nextInt();
+            int quantidade = sc.nextInt();
 
             double total;
 
@@ -40,13 +40,13 @@ public class ex6 {
             System.out.println("");
             System.out.printf("O valor total do seu carrinho de comprar é de: R$%.2f\n", carrinho);
             System.out.println("Deseja refazer a compra? y = Sim, n = Não.");
-            user = entrada.next().charAt(0);
+            user = sc.next().charAt(0);
 
         }
 
         System.out.println("Obrigado pela preferência, volte sempre!");
 
-		      entrada.close();
+		      sc.close();
     }
 
 }
