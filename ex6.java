@@ -45,6 +45,8 @@ public class ex6 {
         }
 
         System.out.println("Obrigado pela preferência, volte sempre!");
+
+		      entrada.close();
     }
 
 }
