@@ -14,8 +14,8 @@ public class SimpleDate {
         Date y1 = sdf1.parse("12/01/2024");
         Date y2 = sdf2.parse("12/01/2024 00:09:20");
 
-        System.out.println(sdf2.format(y1));
-        System.out.println(sdf2.format(y2));
+        System.out.println("Y1 = " + sdf2.format(y1));
+        System.out.println("Y2 = " + sdf2.format(y2));
     }
 
 }
