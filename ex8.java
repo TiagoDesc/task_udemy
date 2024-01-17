@@ -6,7 +6,7 @@ public class ex8 {
         
         int senha = 2002;
         int user;
-        System.out.println("Digite a senha: ");
+        System.out.println("Enter the password: ");
         user = sc.nextInt();
 
         while(user != senha){                
