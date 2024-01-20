@@ -2,6 +2,10 @@ package POO.Dollar;
 
 public class CurrencyConveter {
 
+    public CurrencyConveter() {
+
+    }
+
     public static double IOF = 0.06;
 
     public static double dollarToReal(double amount, double dollarPrice) {
