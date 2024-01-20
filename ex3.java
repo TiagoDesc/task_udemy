@@ -11,9 +11,6 @@ public class ex3 {
             System.out.println(num + " é par.");
         }else if(num % 2 != 0){
             System.out.println(num + " é impar.");
-        }else if(num == 0){
-            System.out.println(num + " é par.");
-        }
     }
     
 }
