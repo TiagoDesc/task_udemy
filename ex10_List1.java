@@ -18,6 +18,7 @@ public class ex10_List1 {
 
         System.out.println("The employee number " + numberEmployee + " have a salary of: $" + result);
 
+        sc.close();
     }
 
 }
