@@ -7,6 +7,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ex10_List1",
+            "request": "launch",
+            "mainClass": "ex10_List1",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "Calendar",
             "request": "launch",
             "mainClass": "JavaDateHour.Calendar",
