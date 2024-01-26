@@ -5,10 +5,10 @@ public class media_pares {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n, soma = 0, numerosPares = 0;
-        double media;
+        int n, sum = 0, evenNumber = 0;
+        double average;
 
-        System.out.println("Quantos elementos terá no vetor? ");
+        System.out.println("How many elements will there be in the vect? ");
         n = sc.nextInt();
         int vect[] = new int[n];
         for (int i = 0; i < n; i++) {
@@ -18,16 +18,16 @@ public class media_pares {
 
         for (int i = 0; i < n; i++) {
             if (vect[i] % 2 == 0) {
-                soma += vect[i];
-                numerosPares++;
+                sum += vect[i];
+                evenNumber++;
             }
         }
 
-        if (numerosPares == 0) {
-            System.out.println("Não há números pares.");
+        if (evenNumber == 0) {
+            System.out.println("There are no even numbers.");
         } else {
-            media = (double) soma / numerosPares;
-            System.out.printf("A média dos números pares é de: %.1f", media);
+            average = (double) sum / evenNumber;
+            System.out.printf("The average of even number is: %.1f", average);
         }
 
         sc.close();
