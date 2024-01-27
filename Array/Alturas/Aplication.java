@@ -54,7 +54,7 @@ public class Aplication {
         avgHeight = totalHeight / n;
         percentSmall = ((double) smallNumber / n) * 100;
 
-        System.out.printf("The average height is %.2fm2\n", avgHeight);
+        System.out.printf("The average height is %.2fm\n", avgHeight);
         System.out.printf("The number of people under 16 years old is: %.1f%%\n", percentSmall);
 
         for (int i = 0; i < n; i++) {
