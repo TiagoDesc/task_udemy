@@ -11,9 +11,13 @@ public class Program {
 
         OrderStatus os1 = OrderStatus.DELIVERED;
         OrderStatus os2 = OrderStatus.valueOf("DELIVERED");
+        OrderStatus os3 = OrderStatus.PROCESSING;
+        OrderStatus os4 = OrderStatus.valueOf("PROCESSING");
 
         System.out.println(os1);
         System.out.println(os2);
+        System.out.println(os3);
+        System.out.println(os4);
     }
 
 }
