@@ -30,7 +30,7 @@ public class relogio_matriz {
                 for (int s = 0; s < 60; s++) {
                     if (h == hour && m == min && s == sec) {
                         System.out.printf("%d:%d:%d", h, m, s);
-                        System.out.println(" WAKE UP, MAN! WAKE UUUUUUUUPPPPP!!! YOU´RE A MAN, BRO!");
+                        System.out.println(" WAKE UP, MAN! WAKE UUUUUUUUPPPPP!!! YOU'RE A MAN, BRO!");
                         return;
                     }
 
