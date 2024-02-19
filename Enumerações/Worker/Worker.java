@@ -23,4 +23,52 @@ public class Worker {
         this.department = department;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public WorkerLevel getLevel() {
+        return level;
+    }
+
+    public void setLevel(WorkerLevel level) {
+        this.level = level;
+    }
+
+    public Double getBaseSalary() {
+        return baseSalary;
+    }
+
+    public void setBaseSalary(Double baseSalary) {
+        this.baseSalary = baseSalary;
+    }
+
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
+    }
+
+    public List<HourContract> getContracts() {
+        return contracts;
+    }
+
+    public void setContracts(List<HourContract> contracts) {
+        this.contracts = contracts;
+    }
+
+    public void addContract(HourContract contract) {
+        contracts.add(contract);
+    }
+
+    public void removeContract(HourContract contract) {
+        contracts.remove(contract);
+    }
+
 }
