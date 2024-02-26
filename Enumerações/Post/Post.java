@@ -1,6 +1,8 @@
 package Enumerações.Post;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class Post {
 
@@ -8,6 +10,8 @@ public class Post {
     private String title;
     private String content;
     private Integer likes;
+
+    private List<Comment> comments = new ArrayList<>();
 
     public Post() {
 
@@ -50,6 +54,18 @@ public class Post {
 
     public void setLikes(Integer likes) {
         this.likes = likes;
+    }
+
+    public List<Comment> getComments() {
+        return comments;
+    }
+
+    public void addComments(Comment comment) {
+        comments.add(comment);
+    }
+
+    public void removeComments(Comment comment) {
+        comments.remove(comment);
     }
 
 }
