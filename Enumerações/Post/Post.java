@@ -68,4 +68,18 @@ public class Post {
         comments.remove(comment);
     }
 
+    public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append(title + "\n");
+		sb.append(likes);
+		sb.append(" Likes - ");
+		sb.append(sdf.format(moment) + "\n");
+		sb.append(content + "\n");
+		sb.append("Comments:\n");
+		for (Comment c : comments) {
+			sb.append(c.getText() + "\n");
+		}
+		return sb.toString();
+	}
+
 }
