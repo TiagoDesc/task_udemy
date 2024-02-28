@@ -25,6 +25,7 @@ public class Program {
         p2.addComments(c4);
 
         System.out.println(p1);
+        System.out.println(p2);
     }
 
 }
