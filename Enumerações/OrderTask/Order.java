@@ -46,6 +46,22 @@ public class Order {
         this.status = status;
     }
 
+    public OrderItem getItems() {
+        return items;
+    }
+
+    public void setItems(OrderItem items) {
+        this.items = items;
+    }
+
+    public Client getClient() {
+        return client;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
+
     public List<OrderItem> getOrderItems() {
         return orderItems;
     }
