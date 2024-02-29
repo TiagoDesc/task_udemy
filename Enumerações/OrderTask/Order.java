@@ -9,7 +9,7 @@ public class Order {
     private Date moment;
     private OrderStatus status;
 
-    private List<OrderItem> orders = new ArrayList<>();
+    private private List<OrderItem> itens = new ArrayList<>();
 
     public Order() {
 
@@ -21,7 +21,15 @@ public class Order {
     }
 
     public void addItem(OrderItem item) {
+        itens.add(item);
+    }
 
+    public void removeItem(OrderItem item) {
+        itens.remove(item);
+    }
+
+    public Double total() {
+        return quantity * price;
     }
 
     public Date getMoment() {
@@ -40,8 +48,8 @@ public class Order {
         this.status = status;
     }
 
-    public List<OrderItem> getOrders() {
-        return orders;
+    public List<OrderItem> getItens() {
+        return itens;
     }
 
 }
