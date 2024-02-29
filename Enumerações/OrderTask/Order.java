@@ -66,4 +66,14 @@ public class Order {
         return orderItems;
     }
 
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("ORDER SUMARY  \n");
+        sb.append("Order moment: " + moment);
+        sb.append("Order Status: " + status);
+        sb.append("Client: " + client.getName() + client.getBirthDate() + "-" + client.getEmail());
+        sb.append("Order Itens: ");
+        return sb.toString();
+    }
+
 }
