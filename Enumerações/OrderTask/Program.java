@@ -7,6 +7,8 @@ public class Program {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        Product p = new Product("TV", 1000.00);
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
         System.out.println("Enter client data: ");
