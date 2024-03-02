@@ -9,9 +9,8 @@ public class Order {
     private Date moment;
     private OrderStatus status;
 
-    private OrderItem items;
     private Client client;
-    private List<OrderItem> orderItems = new ArrayList<>();
+    private List<OrderItem> items = new ArrayList<>();
 
     public Order() {
 
@@ -23,11 +22,11 @@ public class Order {
     }
 
     public void addItem(OrderItem item) {
-        orderItems.add(item);
+        items.add(item);
     }
 
     public void removeItem(OrderItem item) {
-        orderItems.remove(item);
+        items.remove(item);
     }
 
     public Date getMoment() {
@@ -46,14 +45,6 @@ public class Order {
         this.status = status;
     }
 
-    public OrderItem getItems() {
-        return items;
-    }
-
-    public void setItems(OrderItem items) {
-        this.items = items;
-    }
-
     public Client getClient() {
         return client;
     }
@@ -63,7 +54,7 @@ public class Order {
     }
 
     public List<OrderItem> getOrderItems() {
-        return orderItems;
+        return items;
     }
 
     public String toString() {
