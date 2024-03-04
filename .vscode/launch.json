@@ -9,6 +9,13 @@
             "type": "java",
             "name": "Program",
             "request": "launch",
+            "mainClass": "Enumerações.OrderTask.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
             "mainClass": "Enumerações.Post.Program",
             "projectName": "ws-udemy_6c7938d2"
         },
