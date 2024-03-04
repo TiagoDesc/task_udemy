@@ -19,9 +19,10 @@ public class Order {
 
     }
 
-    public Order(Date moment, OrderStatus status) {
+    public Order(Date moment, OrderStatus status, Client client) {
         this.moment = moment;
         this.status = status;
+        this.client = client;
     }
 
     public void addItem(OrderItem item) {
