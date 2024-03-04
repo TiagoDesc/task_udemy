@@ -53,8 +53,12 @@ public class Order {
         this.client = client;
     }
 
-    public List<OrderItem> getOrderItems() {
-        return items;
+    public double total() {
+        double sum = 0;
+        for (OrderItem it : items) {
+            sum += it.subTotal();
+        }
+        return sum;
     }
 
     public String toString() {
