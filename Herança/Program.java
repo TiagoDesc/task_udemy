@@ -6,7 +6,7 @@ public class Program {
 
         BusinessAccount account = new BusinessAccount(1001, "Tiago", 1000.0, 800.0);
 
-        System.out.println(account.getBalance());
+        System.out.println(account.getHolder());
 
     }
 
