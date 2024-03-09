@@ -8,7 +8,7 @@ public class Program {
 
         System.out.println(account.getHolder());
         System.out.println(account.getBalance());
-        System.out.println(account.getLimit());
+        System.out.println(account.getLoanLimit());
 
     }
 
