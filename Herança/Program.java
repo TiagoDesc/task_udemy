@@ -29,5 +29,7 @@ public class Program {
         System.out.println(account.getLoanLimit());
         System.out.println(account.getHolder());
 
+        sc.close();
+
     }
 }
