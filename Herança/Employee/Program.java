@@ -15,8 +15,8 @@ public class Program {
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            System.out.print("Employee #" + i + " data:");
-            System.out.print("Outsourced (y/n)?");
+            System.out.println("Employee #" + i + " data:");
+            System.out.print("Outsourced (y/n)?: ");
             char answer = sc.next().charAt(0);
             System.out.print("Name: ");
             sc.nextLine();
@@ -43,7 +43,7 @@ public class Program {
         System.out.println();
         System.out.println("PAYMENTS:");
         for (Employee emp : list) {
-            System.out.println(emp.getName() + " -$ " + String.format("%.2f", emp.payment()));
+            System.out.println(emp.getName() + " - $ " + String.format("%.2f", emp.payment()));
         }
     }
 
