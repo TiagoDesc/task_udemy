@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import POO.Employee.employee;
-
 public class Program {
 
     public static void main(String[] args) {
@@ -32,12 +30,12 @@ public class Program {
                 double additionalCharge = sc.nextDouble();
                 // Employee emp = new OutsourcedEmployee(name, hours, valuePerHour,
                 // additionalCharge);
-                list.add(new OutsourcedEmployee(name, hours, valuePerHour, additionalCharge)); // <-------- Same
-                                                                                               // function, just a new
-                                                                                               // way to create.
+                // <-------- Same function, just a new way to create.
+                list.add(new OutsourcedEmployee(name, hours, valuePerHour, additionalCharge));
             } else {
                 // emp = new Employee(name, hours, valuePerHour);
-                list.add(new Employee(name, hours, valuePerHour)); // <-------- Same function, just a new way to create.
+                // <-------- Same function, just a new way to create.
+                list.add(new Employee(name, hours, valuePerHour));
             }
 
         }
@@ -45,7 +43,7 @@ public class Program {
         System.out.println();
         System.out.println("PAYMENTS:");
         for (Employee emp : list) {
-
+            System.out.println(emp.getName() + " -$ " + String.format("%.2f", emp.payment()));
         }
     }
 
