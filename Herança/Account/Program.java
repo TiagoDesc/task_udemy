@@ -1,4 +1,4 @@
-package Herança;
+package Herança.Account;
 
 import java.util.Scanner;
 

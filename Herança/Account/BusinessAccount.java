@@ -1,4 +1,4 @@
-package Herança;
+package Herança.Account;
 
 public class BusinessAccount extends Account {
 

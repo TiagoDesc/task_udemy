@@ -1,4 +1,4 @@
-package Herança;
+package Herança.Account;
 
 public class Account {
 
