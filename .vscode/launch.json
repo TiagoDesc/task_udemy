@@ -9,6 +9,13 @@
             "type": "java",
             "name": "Program",
             "request": "launch",
+            "mainClass": "Herança.Employee.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
             "mainClass": "Herança.Program",
             "projectName": "ws-udemy_6c7938d2"
         },
