@@ -30,10 +30,12 @@ public class Program {
                 double additionalCharge = sc.nextDouble();
                 // Employee emp = new OutsourcedEmployee(name, hours, valuePerHour,
                 // additionalCharge);
+                // list.add(emp);
                 // <-------- Same function, just a new way to create.
                 list.add(new OutsourcedEmployee(name, hours, valuePerHour, additionalCharge));
             } else {
                 // emp = new Employee(name, hours, valuePerHour);
+                // list.add(emp);
                 // <-------- Same function, just a new way to create.
                 list.add(new Employee(name, hours, valuePerHour));
             }
