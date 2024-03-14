@@ -28,10 +28,12 @@ public class ImportedProduct extends Product {
     }
 
     @Override
-    public String toString() {
-        StringBuilder priceTag = new StringBuilder();
-        priceTag.priceTag.append(super.getPrice());
-        return priceTag.toString();
+    public String priceTag() {
+        return getName()
+                + " $ "
+                + String.format("%.2f", totalPrice())
+                + " (Customs fee: $ "
+                + String.format("%.2f", customsFee)
+                + ")";
     }
-
 }
