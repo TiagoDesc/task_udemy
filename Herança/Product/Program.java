@@ -36,7 +36,7 @@ public class Program {
                 product = new ImportedProduct(name, price, customsFee);
                 list.add(product);
             } else if (choise == 'u') {
-                System.out.print("Manufactured data (DD/MM/YYYY): ");
+                System.out.print("Manufactured date (DD/MM/YYYY): ");
                 LocalDate manufactureDate = LocalDate.parse(sc.next(), DateTimeFormatter.ofPattern("dd/MM/yyyy"));
                 product = new UsedProduct(name, price, manufactureDate);
                 list.add(product);
