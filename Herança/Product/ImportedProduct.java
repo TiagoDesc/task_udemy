@@ -1,7 +1,5 @@
 package Herança.Product;
 
-import POO.Product.product;
-
 public class ImportedProduct extends Product {
 
     private Double customsFee;

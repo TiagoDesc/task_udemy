@@ -14,7 +14,7 @@ public class Program {
         Scanner sc = new Scanner(System.in);
 
         List<Product> list = new ArrayList<>();
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+
         Product product = new Product();
 
         System.out.print("Enter the number of products: ");
