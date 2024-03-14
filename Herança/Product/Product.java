@@ -30,10 +30,10 @@ public class Product {
         this.price = price;
     }
 
-    public String toString() {
-        StringBuilder priceTag = new StringBuilder();
-        priceTag.append(price);
-        return priceTag.toString();
+    public String priceTag() {
+        return name
+                + " $ "
+                + String.format("%.2f", price);
     }
 
 }
