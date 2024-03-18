@@ -1,35 +1,35 @@
 package Herança.Account;
 
-import java.util.Scanner;
-
 public class Program {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        System.out.println("Number: ");
-        Integer number = sc.nextInt();
+        Account acc = new Account(1001, "Tiago", 0.0);
+        BusinessAccount bacc = new BusinessAccount(1002, "Messi", 0.0, 500.0);
 
-        System.out.println("Balance:");
-        Double balance = sc.nextDouble();
+        // UPCASTING
 
-        System.out.println("Loan limit: ");
-        Double loanLimit = sc.nextDouble();
+        Account acc1 = bacc;
+        Account acc2 = new BusinessAccount(1003, "Bob", 0.0, 200.0);
+        Account acc3 = new SavingsAccount(1004, "Ana", 0.0, 0.01);
 
-        sc.nextLine();
+        // DOWNCASTING
 
-        System.out.println("Holder: ");
-        String holder = sc.nextLine();
+        BusinessAccount acc4 = (BusinessAccount) acc2;
+        acc4.loan(100.0);
 
-        BusinessAccount account = new BusinessAccount(number, holder, balance, loanLimit);
+        // BusinessAccount acc5 = (BusinessAccount) acc3;
 
-        System.out.println("The order: ");
-        System.out.println(account.getNumber());
-        System.out.println(account.getBalance());
-        System.out.println(account.getLoanLimit());
-        System.out.println(account.getHolder());
+        if (acc3 instanceof BusinessAccount) {
+            BusinessAccount acc5 = (BusinessAccount) acc3;
+            acc5.loan(200.0);
+            System.out.println("Loan!");
+        }
 
-        sc.close();
-
+        if (acc3 instanceof SavingsAccount) {
+            SavingsAccount acc5 = (SavingsAccount) acc3;
+            acc5.updateBalance();
+            System.out.println("Update!");
+        }
     }
 }
