@@ -1,4 +1,4 @@
-package Enumerações.GeometricFigure;
+package Herança.GeometricFigure;
 
 import java.util.ArrayList;
 import java.util.List;

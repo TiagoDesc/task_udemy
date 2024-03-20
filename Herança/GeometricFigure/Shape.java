@@ -1,4 +1,4 @@
-package Enumerações.GeometricFigure;
+package Herança.GeometricFigure;
 
 public abstract class Shape {
 
