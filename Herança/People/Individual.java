@@ -3,16 +3,14 @@ package Herança.People;
 public class Individual extends People {
 
     private Double healthExpenditures;
-    private Boolean confirm;
 
     public Individual() {
         super();
     }
 
-    public Individual(String name, Double anualIncome, Double healthExpenditures, Boolean confirm) {
+    public Individual(String name, Double anualIncome, Double healthExpenditures) {
         super(name, anualIncome);
         this.healthExpenditures = healthExpenditures;
-        this.confirm = confirm;
     }
 
     public Double getHealthExpenditures() {
