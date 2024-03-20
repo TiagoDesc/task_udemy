@@ -9,6 +9,13 @@
             "type": "java",
             "name": "Program",
             "request": "launch",
+            "mainClass": "Herança.People.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
             "mainClass": "Enumerações.GeometricFigure.Program",
             "projectName": "ws-udemy_6c7938d2"
         },
