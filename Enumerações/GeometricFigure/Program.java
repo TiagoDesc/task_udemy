@@ -14,32 +14,29 @@ public class Program {
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            System.out.println("Shape #" + 1 + " data:");
+            System.out.println("Shape #" + i + " data:");
             System.out.print("Rectangle or Circle (r/c)? ");
+            shape = sc.next().charAt(0);
+            System.out.print("Color (BLACK/BLUE/RED): ");
+            Color color = Color.valueOf(sc.next());
             if (shape == 'r') {
-                shape = sc.next().charAt(0);
-                System.out.print("Color (BLACK/BLUE/RED): ");
-                sc.nextLine();
-                String color = sc.nextLine();
                 System.out.print("Width: ");
                 double width = sc.nextDouble();
                 System.out.print("Height: ");
                 double height = sc.nextDouble();
-                Shape rectangle = new Rectangle(Color.valueOf(color), width, height);
+                list.add(new Rectangle(color, width, height));
             } else {
-                System.out.print("Color (BLACK/BLUE/RED): ");
-                sc.nextLine();
-                String color = sc.nextLine();
+                System.out.print("Radius: ");
                 double radius = sc.nextDouble();
-                Shape circle = new Circle(Color.valueOf(color), radius);
-            }
-
-            for (Shape sh : list) {
-                System.out.println("SHAPE AREAS:");
-                System.out.println(sh.area());
+                list.add(new Circle(color, radius));
             }
 
         }
+        System.out.println();
+        System.out.println("SHAPE AREAS:");
+        for (Shape sh : list) {
+            System.out.println(String.format("%.2f", sh.area()));
 
+        }
     }
 }
