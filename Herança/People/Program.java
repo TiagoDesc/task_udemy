@@ -10,7 +10,7 @@ public class Program {
         Scanner sc = new Scanner(System.in);
         List<People> list = new ArrayList<>();
 
-        System.out.println("Enter the number of taxpayers");
+        System.out.print("Enter the number of taxpayers: ");
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
@@ -31,6 +31,21 @@ public class Program {
                 int numberEmployee = sc.nextInt();
                 list.add(new Company(name, anualIncome, numberEmployee));
             }
+
+        }
+
+        System.out.println();
+        System.out.println("TAXES PAID:");
+        for (People people : list) {
+            System.out.println(people.getName());
+            System.out.println(String.format("$%.2f", people.tax()));
+
+        }
+        double sum = 0;
+        for (People people : list) {
+            sum += people.tax();
+            System.out.print("TOTAL TAXES: $");
+            System.out.println(sum);
 
         }
     }
