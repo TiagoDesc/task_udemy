@@ -1,5 +1,5 @@
 package Enumerações.GeometricFigure;
 
-public class Shape {
+public abstract class Shape {
 
 }
