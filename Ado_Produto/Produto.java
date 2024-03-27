@@ -41,4 +41,9 @@ public abstract class Produto {
 
     public abstract void vender(double dinheiro, int idadeDoComprador);
 
+
+public String toString (){
+return "draft";
+}
+
 }
