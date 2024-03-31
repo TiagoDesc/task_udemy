@@ -45,7 +45,6 @@ public abstract class Produto {
 
     public abstract void vender(double dinheiro, int idadeDoComprador);
 
-<<<<<<< HEAD
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("Nome: " + nome);
@@ -53,11 +52,5 @@ public abstract class Produto {
         sb.append("Quantidade: " + quantidade);
         return sb.toString();
     }
-=======
-
-public String toString (){
-return "draft";
-}
->>>>>>> a291714b8ab3299e69c1eab5067dc412c1dafe0e
 
 }
