@@ -39,6 +39,18 @@ public abstract class Produto {
         this.quantidade = quantidade;
     }
 
+    public void comprarEstoque(int quantidade) {
+        preco += quantidade;
+    }
+
     public abstract void vender(double dinheiro, int idadeDoComprador);
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Nome: " + nome);
+        sb.append("Preço: " + preco);
+        sb.append("Quantidade: " + quantidade);
+        return sb.toString();
+    }
 
 }
