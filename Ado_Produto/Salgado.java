@@ -1,8 +1,8 @@
 package Ado_Produto;
 
-public class Refrigerante extends Produto {
+public class Salgado extends Produto {
 
-    public Refrigerante() {
+    public Salgado() {
         super();
     }
 
