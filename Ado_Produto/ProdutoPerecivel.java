@@ -26,4 +26,13 @@ public abstract class ProdutoPerecivel extends Produto {
     public void passaDia() {
         validade--;
     }
+
+    public int getValidade() {
+        return validade;
+    }
+
+    public void setValidade(int validade) {
+        this.validade = validade;
+    }
+
 }

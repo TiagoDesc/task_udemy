@@ -23,4 +23,12 @@ public abstract class ProdutoRestrito extends Produto {
         return super.toString() + ", Idade Mínima: " + idadeMinima;
     }
 
+    public int getIdadeMinima() {
+        return idadeMinima;
+    }
+
+    public void setIdadeMinima(int idadeMinima) {
+        this.idadeMinima = idadeMinima;
+    }
+
 }
