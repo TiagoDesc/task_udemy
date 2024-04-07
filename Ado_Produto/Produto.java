@@ -35,14 +35,14 @@ public abstract class Produto {
         } else {
             quantidadeEmEstoque += quantidade;
         }
-        System.out.println("Estoque atualizado. Quantidade em estoque: " + quantidadeEmEstoque);
+        System.out.println("Estoque atualizado. Quantidade em estoque: " + (quantidadeEmEstoque - 1));
     }
 
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("\nNome: ").append(nome);
         sb.append("\nPreço: ").append(preco);
-        sb.append("\nQuantidade em estoque: ").append(quantidadeEmEstoque).append("\n");
+        sb.append("\nQuantidade em estoque anterior: ").append(quantidadeEmEstoque).append("\n");
         return sb.toString();
     }
 

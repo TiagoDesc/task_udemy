@@ -17,6 +17,7 @@ public class Program {
         ProdutoRestrito whisky = new Whisky("Whisky Royal Salute", 1000, 5, 18);
 
         geladeira.vender(2000, 30);
+        geladeira.comprarEstoque(1);
         System.out.println(geladeira.toString());
 
         cadeira.vender(150, 35);
