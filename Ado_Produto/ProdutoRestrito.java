@@ -9,4 +9,18 @@ public abstract class ProdutoRestrito extends Produto {
         this.idadeMinima = idadeMinima;
     }
 
+    @Override
+    public void vender(double dinheiroPagoPeloCliente, int idadeComprador) {
+        if (idadeComprador < idadeMinima) {
+            System.out.println("Você é menor de idade, JÃO! NÃO VAI PODER COMPRAR!");
+        } else {
+            super.vender(dinheiroPagoPeloCliente, idadeComprador);
+        }
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", Idade Mínima: " + idadeMinima;
+    }
+
 }
