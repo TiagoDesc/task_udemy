@@ -12,7 +12,7 @@ public abstract class ProdutoRestrito extends Produto {
     @Override
     public void vender(double dinheiroPagoPeloCliente, int idadeComprador) {
         if (idadeComprador < idadeMinima) {
-            System.out.println("Você é menor de idade, JÃO! NÃO VAI PODER COMPRAR!");
+            System.out.println("\nVocê é menor de idade, JÃO! NÃO VAI PODER COMPRAR!");
         } else {
             super.vender(dinheiroPagoPeloCliente, idadeComprador);
         }
@@ -20,7 +20,7 @@ public abstract class ProdutoRestrito extends Produto {
 
     @Override
     public String toString() {
-        return super.toString() + ", Idade Mínima: " + idadeMinima;
+        return super.toString() + "Idade Mínima: " + idadeMinima;
     }
 
     public int getIdadeMinima() {

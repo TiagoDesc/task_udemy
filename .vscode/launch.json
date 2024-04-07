@@ -9,6 +9,13 @@
             "type": "java",
             "name": "Program",
             "request": "launch",
+            "mainClass": "Ado_Produto.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
             "mainClass": "Herança.People.Program",
             "projectName": "ws-udemy_6c7938d2"
         },

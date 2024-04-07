@@ -24,7 +24,7 @@ public abstract class ProdutoPerecivel extends Produto {
 
     @Override
     public String toString() {
-        return super.toString() + ", Validade: " + validade + " dias para vencer";
+        return super.toString() + "Validade: " + validade + " dias para estragar.\n";
     }
 
     public void passaDia() {

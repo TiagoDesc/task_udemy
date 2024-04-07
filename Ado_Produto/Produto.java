@@ -18,27 +18,27 @@ public abstract class Produto {
 
     public void vender(double dinheiroPagoPeloCliente, int idadeComprador) {
         if (quantidadeEmEstoque == 0) {
-            System.out.println("Produto sem estoque.");
+            System.out.println("Produto sem estoque");
         } else if (dinheiroPagoPeloCliente < preco) {
-            System.out.println("Dinheiro insuficiente. Ta duro? DORME!");
+            System.out.println("Dinheiro insuficiente");
         } else {
             double troco = dinheiroPagoPeloCliente - preco;
             System.out.println("Troco: " + troco);
             quantidadeEmEstoque--;
-            System.out.println("Produto vendido: " + nome);
+            System.out.println("Venda realizada com sucesso. Produto vendido: " + nome);
         }
     }
 
     public void comprarEstoque(int quantidade) {
-        quantidadeEmEstoque += quantidade;
+        quantidadeEmEstoque -= quantidade;
         System.out.println("Estoque atualizado. Quantidade em estoque: " + quantidadeEmEstoque);
     }
 
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Nome: " + nome);
-        sb.append("Preço: " + preco);
-        sb.append("Quantidade: " + quantidadeEmEstoque);
+        sb.append("\nNome: ").append(nome);
+        sb.append("\nPreço: ").append(preco);
+        sb.append("\nQuantidade em estoque: ").append(quantidadeEmEstoque).append("\n");
         return sb.toString();
     }
 
