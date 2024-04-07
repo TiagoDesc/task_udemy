@@ -17,11 +17,9 @@ public class Program {
         ProdutoRestrito whisky = new Whisky("Whisky Royal Salute", 1000, 5, 18);
 
         geladeira.vender(2000, 30);
-        geladeira.comprarEstoque(1);
         System.out.println(geladeira.toString());
 
         cadeira.vender(150, 35);
-        cadeira.comprarEstoque(1);
         System.out.println(cadeira.toString());
 
         mesa.vender(800, 25);
@@ -29,7 +27,6 @@ public class Program {
         System.out.println(mesa.toString());
 
         leite.vender(10, 18);
-        leite.comprarEstoque(1);
         leite.passaDia();
         System.out.println(leite.toString());
 

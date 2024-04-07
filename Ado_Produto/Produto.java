@@ -18,19 +18,23 @@ public abstract class Produto {
 
     public void vender(double dinheiroPagoPeloCliente, int idadeComprador) {
         if (quantidadeEmEstoque == 0) {
-            System.out.println("Produto sem estoque");
+            System.out.println("Produto sem estoque.");
         } else if (dinheiroPagoPeloCliente < preco) {
-            System.out.println("Dinheiro insuficiente");
+            System.out.println("A compra de " + getNome() + " falhou. Dinheiro insuficiente. Ta duro? DORME!");
         } else {
             double troco = dinheiroPagoPeloCliente - preco;
+            System.out.println("Produto vendido: " + nome);
             System.out.println("Troco: " + troco);
-            quantidadeEmEstoque--;
-            System.out.println("Venda realizada com sucesso. Produto vendido: " + nome);
+            quantidadeEmEstoque--; // Reduz a quantidade em estoque apenas se a compra for bem-sucedida
         }
     }
 
     public void comprarEstoque(int quantidade) {
-        quantidadeEmEstoque -= quantidade;
+        if (quantidadeEmEstoque == 0) {
+            quantidadeEmEstoque = quantidade; // Define a quantidade inicial se o estoque estiver vazio
+        } else {
+            quantidadeEmEstoque += quantidade;
+        }
         System.out.println("Estoque atualizado. Quantidade em estoque: " + quantidadeEmEstoque);
     }
 
