@@ -3,53 +3,38 @@ package Ado_Produto;
 public abstract class Produto {
 
     private String nome;
-    private Double preco;
-    private int quantidade;
+    private double preco;
+    private int quantidadeEmEstoque;
 
-    public Produto() {
-    }
-
-    public Produto(String nome, Double preco, int quantidade) {
+    public Produto(String nome, double preco, int quantidadeEmEstoque) {
         this.nome = nome;
         this.preco = preco;
-        this.quantidade = quantidade;
+        this.quantidadeEmEstoque = quantidadeEmEstoque;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public Double getPreco() {
-        return preco;
-    }
-
-    public void setPreco(Double preco) {
-        this.preco = preco;
-    }
-
-    public int getQuantidade() {
-        return quantidade;
-    }
-
-    public void setQuantidade(int quantidade) {
-        this.quantidade = quantidade;
+    public void vender(double dinheiroPagoPeloCliente, int idadeComprador) {
+        if (quantidadeEmEstoque == 0) {
+            System.out.println("Produto sem estoque.");
+        } else if (dinheiroPagoPeloCliente < preco) {
+            System.out.println("Dinheiro insuficiente. Ta duro? DORME!");
+        } else {
+            double troco = dinheiroPagoPeloCliente - preco;
+            System.out.println("Troco: " + troco);
+            quantidadeEmEstoque--;
+            System.out.println("Produto vendido: " + nome);
+        }
     }
 
     public void comprarEstoque(int quantidade) {
-        preco += quantidade;
+        quantidadeEmEstoque += quantidade;
+        System.out.println("Estoque atualizado. Quantidade em estoque: " + quantidadeEmEstoque);
     }
-
-    public abstract void vender(double dinheiro, int idadeDoComprador);
 
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("Nome: " + nome);
         sb.append("Preço: " + preco);
-        sb.append("Quantidade: " + quantidade);
+        sb.append("Quantidade: " + quantidadeEmEstoque);
         return sb.toString();
     }
 

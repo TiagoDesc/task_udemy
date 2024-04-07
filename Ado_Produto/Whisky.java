@@ -1,5 +1,5 @@
 package Ado_Produto;
 
-public class Whisky {
+public class Whisky extends Product {
 
 }
