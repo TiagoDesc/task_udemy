@@ -25,13 +25,13 @@ public abstract class Produto {
             double troco = dinheiroPagoPeloCliente - preco;
             System.out.println("Produto vendido: " + nome);
             System.out.println("Troco: " + troco);
-            quantidadeEmEstoque--; // Reduz a quantidade em estoque apenas se a compra for bem-sucedida
+            quantidadeEmEstoque--;
         }
     }
 
     public void comprarEstoque(int quantidade) {
         if (quantidadeEmEstoque == 0) {
-            quantidadeEmEstoque = quantidade; // Define a quantidade inicial se o estoque estiver vazio
+            quantidadeEmEstoque = quantidade;
         } else {
             quantidadeEmEstoque += quantidade;
         }
