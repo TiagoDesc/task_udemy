@@ -7,4 +7,8 @@ public class Leite extends ProdutoPerecivel {
 
     }
 
+    public Leite(int quantidadeEmEstoque) {
+        super(quantidadeEmEstoque);
+    }
+
 }

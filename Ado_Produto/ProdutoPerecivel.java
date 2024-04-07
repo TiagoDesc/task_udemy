@@ -9,6 +9,10 @@ public abstract class ProdutoPerecivel extends Produto {
         this.validade = validade;
     }
 
+    public ProdutoPerecivel(int quantidadeEmEstoque) {
+        super(quantidadeEmEstoque);
+    }
+
     @Override
     public void vender(double dinheiroPagoPeloCliente, int idadeComprador) {
         if (validade <= 0) {

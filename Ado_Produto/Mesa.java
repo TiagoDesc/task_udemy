@@ -7,4 +7,8 @@ public class Mesa extends Produto {
 
     }
 
+    public Mesa(int quantidadeEmEstoque) {
+        super(quantidadeEmEstoque);
+    }
+
 }

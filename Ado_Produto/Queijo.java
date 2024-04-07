@@ -7,4 +7,8 @@ public class Queijo extends ProdutoPerecivel {
 
     }
 
+    public Queijo(int quantidadeEmEstoque) {
+        super(quantidadeEmEstoque);
+    }
+
 }

@@ -12,6 +12,10 @@ public abstract class Produto {
         this.quantidadeEmEstoque = quantidadeEmEstoque;
     }
 
+    public Produto(int quantidadeEmEstoque) {
+        this.quantidadeEmEstoque = quantidadeEmEstoque;
+    }
+
     public void vender(double dinheiroPagoPeloCliente, int idadeComprador) {
         if (quantidadeEmEstoque == 0) {
             System.out.println("Produto sem estoque.");

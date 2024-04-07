@@ -7,4 +7,13 @@ public class Geladeira extends Produto {
 
     }
 
+    public Geladeira(int quantidadeEmEstoque) {
+        super(quantidadeEmEstoque);
+    }
+
+    public void passaDia() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'passaDia'");
+    }
+
 }

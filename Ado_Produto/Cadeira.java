@@ -7,4 +7,8 @@ public class Cadeira extends Produto {
 
     }
 
+    public Cadeira(int quantidadeEmEstoque) {
+        super(quantidadeEmEstoque);
+    }
+
 }
