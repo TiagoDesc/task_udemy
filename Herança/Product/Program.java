@@ -43,11 +43,12 @@ public class Program {
                 list.add(new Product(name, price));
             }
 
-            System.out.println();
-            System.out.println("PRICE TAGS: ");
-            for (Product prod : list) {
-                System.out.println(prod.priceTag());
-            }
+        }
+
+        System.out.println();
+        System.out.println("PRICE TAGS: ");
+        for (Product prod : list) {
+            System.out.println(prod.priceTag());
         }
     }
 
