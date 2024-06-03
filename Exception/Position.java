@@ -1,5 +1,6 @@
 package Exception;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Position {
@@ -14,6 +15,8 @@ public class Position {
             System.out.println(vect[position]);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Invalid Position!");
+        } catch (InputMismatchException e) {
+            System.out.println("Input Error!");
         }
 
         System.out.println("End of program!");
