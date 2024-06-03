@@ -12,7 +12,7 @@ public class Aplication {
         // Catch people´s data - Scanner;
         // 'for' structure to check the number of people under 16
         // years...
-        // and structure to catch the full heigth.
+        // and structure to catch the full height.
         // Make the average height.
         // Calculate the percentage of people under 16 years old.
         // Print the average height.
