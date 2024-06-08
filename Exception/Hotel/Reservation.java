@@ -12,12 +12,9 @@ public class Reservation {
 
     private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
-    public Reservation() {
-    }
-
     public Reservation(Integer roomNumber, Date checkIn, Date checkOut) {
         if (!checkOut.after(checkIn)) {
-            throw new DomainException("Check-in date must be after check-in date.");
+            throw new DomainException("Check-out date must be after check-in date");
         }
         this.roomNumber = roomNumber;
         this.checkIn = checkIn;
@@ -50,10 +47,10 @@ public class Reservation {
     public void updateDates(Date checkIn, Date checkOut) {
         Date now = new Date();
         if (checkIn.before(now) || checkOut.before(now)) {
-            throw new DomainException("Reservation dates for update must be future dates.");
+            throw new DomainException("Reservation dates for update must be future dates");
         }
         if (!checkOut.after(checkIn)) {
-            throw new DomainException("Check-out date must be after check-in date.");
+            throw new DomainException("Check-out date must be after check-in date");
         }
         this.checkIn = checkIn;
         this.checkOut = checkOut;
@@ -61,15 +58,15 @@ public class Reservation {
 
     @Override
     public String toString() {
-        return "romm"
+        return "Room "
                 + roomNumber
                 + ", check-in: "
                 + sdf.format(checkIn)
-                + ", check-out"
+                + ", check-out: "
                 + sdf.format(checkOut)
                 + ", "
                 + duration()
-                + "nights";
+                + " nights";
     }
 
 }
