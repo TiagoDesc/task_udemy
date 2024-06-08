@@ -38,7 +38,9 @@ public class Reservation {
     }
 
     public long duration() {
+        // Calcula a diferença entre checkOut e checkIn em milissegundos
         long diff = checkOut.getTime() - checkIn.getTime();
+        // Converte a diferença de milissegundos para dias usando TimeUnit
         return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
     }
 
