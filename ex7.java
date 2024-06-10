@@ -6,7 +6,7 @@ public class ex7 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Número: ");
+        System.out.println("Digite um número e veja a sua soma. Digite 0 para parar.");
         int x = sc.nextInt();
 
         int soma = 0;
