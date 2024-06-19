@@ -51,11 +51,11 @@ public class Account {
     }
 
     public void deposit(double amount) {
-        amount += balance;
+        balance += amount;
     }
 
     public void withdraw(double amount) {
-        amount -= balance;
+        balance -= amount;
     }
 
     @Override
