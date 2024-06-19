@@ -58,6 +58,15 @@ public class Account {
         balance -= amount;
     }
 
+    private void validateWithdraw(double amount) {
+        if (amount > getWithdrawLimit()) {
+            throw new BusinessException("Withdraw error: The amount excceds the withdraw limit.");
+        }
+        if (amount > getBalance()) {
+            throw new BusinessException("Withdraw error: Insufficient funds.");
+        }
+    }
+
     @Override
     public String toString() {
         return "Account [number=" + number + ", holder=" + holder + ", balance=" + balance + ", withdrawLimit="
