@@ -9,6 +9,13 @@
             "type": "java",
             "name": "Program",
             "request": "launch",
+            "mainClass": "Exception.Account.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
             "mainClass": "Exception.Hotel.Program",
             "projectName": "ws-udemy_6c7938d2"
         },
