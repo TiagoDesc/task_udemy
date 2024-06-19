@@ -58,4 +58,10 @@ public class Account {
         amount -= balance;
     }
 
+    @Override
+    public String toString() {
+        return "Account [number=" + number + ", holder=" + holder + ", balance=" + balance + ", withdrawLimit="
+                + withdrawLimit + "]";
+    }
+
 }
