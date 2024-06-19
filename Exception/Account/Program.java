@@ -33,10 +33,10 @@ public class Program {
 
         System.out.println();
         System.out.print("Enter the withdraw: ");
-        double withdraw = sc.nextDouble();
+        double amount = sc.nextDouble();
 
         try {
-            account.withdraw(withdraw);
+            account.withdraw(amount);
             System.out.printf("New balance: %.2f%n", account.getBalance());
 
         } catch (BusinessException e) {
