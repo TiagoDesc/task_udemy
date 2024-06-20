@@ -42,6 +42,8 @@ public class Program {
         } catch (BusinessException e) {
             System.out.println(e.getMessage());
         }
+
+        sc.close();
     }
 
 }
