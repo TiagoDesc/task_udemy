@@ -10,7 +10,6 @@ public class ex9 {
         int alcool = 0;
 
         int cod;
-        int total = 0;
 
         System.out.println("Enter the code: ");
         cod = sc.nextInt();
