@@ -48,6 +48,8 @@ public class ex9 {
         System.out.println("Gas: " + gasolina);
         System.out.println("Diesel: " + diesel);
 
+        sc.close();
+
     }
 
 }
