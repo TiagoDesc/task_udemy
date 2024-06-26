@@ -8,7 +8,7 @@ public class Program {
 
     public static void main(String[] args) {
         File file = new File("C:\\Users\\n" + //
-                "obre\\OneDrive\\Área de Trabalho\\ws-udemy");
+                "obre\\OneDrive\\Área de Trabalho\\ws-udemy\\Working_Files");
         Scanner sc = null;
         try {
             sc = new Scanner(file);
