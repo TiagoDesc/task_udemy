@@ -10,8 +10,7 @@ public class FileReaderMain {
 
         String path = "C:\\Users\\n" + //
                 "obre\\OneDrive\\Área de Trabalho\\ws-udemy\\Working_Files\\in.txt";
-        BufferedReader br = null;
-        FileReader fr = null;
+        
 
         try {
             fr = new FileReader(path);
@@ -25,18 +24,6 @@ public class FileReaderMain {
             }
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
-        } finally {
-            try {
-                if (br != null) {
-                    br.close();
-                }
-
-                if (fr != null) {
-                    fr.close();
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
+        
     }
 }
