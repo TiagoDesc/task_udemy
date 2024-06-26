@@ -13,7 +13,7 @@ public class FileReaderMain {
         String path = "C:\\Users\\n" + //
                 "obre\\OneDrive\\Área de Trabalho\\ws-udemy\\Working_Files\\out.txt";
 
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(path))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(path, true))) {
             for (String line : lines) {
                 bw.write(line);
                 bw.newLine();
