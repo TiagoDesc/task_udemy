@@ -7,6 +7,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FileReaderMain",
+            "request": "launch",
+            "mainClass": "Working_Files.FileReaderMain",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "Program",
             "request": "launch",
             "mainClass": "Working_Files.Program",
