@@ -7,6 +7,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Working_Files.Product.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
             "name": "Path",
             "request": "launch",
             "mainClass": "Working_Files.Path.Path",
