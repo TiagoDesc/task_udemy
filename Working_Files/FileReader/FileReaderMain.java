@@ -1,4 +1,4 @@
-package Working_Files;
+package Working_Files.FileReader;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
