@@ -1,10 +1,6 @@
-package Interface;
+package Interface.WithoutInterface.Rental;
 
 import java.time.Duration;
-
-import Interface.Rental.BrazilTaxService;
-import Interface.Rental.CarRental;
-import Interface.Rental.Invoice;
 
 public class RentalService {
 

@@ -1,11 +1,9 @@
-package Interface.Rental;
+package Interface.WithoutInterface.Rental;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
-
-import Interface.RentalService;
 
 public class Program {
 

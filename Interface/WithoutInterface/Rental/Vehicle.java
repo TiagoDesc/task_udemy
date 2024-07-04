@@ -1,4 +1,4 @@
-package Interface.Rental;
+package Interface.WithoutInterface.Rental;
 
 public class Vehicle {
 
