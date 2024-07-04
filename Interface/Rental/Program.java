@@ -5,6 +5,8 @@ import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
 
+import Interface.RentalService;
+
 public class Program {
 
     public static void main(String[] args) {
@@ -22,6 +24,20 @@ public class Program {
         LocalDateTime finish = LocalDateTime.parse(sc.nextLine(), fmt);
 
         CarRental cr = new CarRental(start, finish, new Vehicle(carModel));
+
+        System.out.print("Enter the price per hour: ");
+        double pricePerHour = sc.nextDouble();
+        System.out.print("Enter the price per day: ");
+        double pricePerDay = sc.nextDouble();
+
+        RentalService rentalService = new RentalService(pricePerHour, pricePerDay, new BrazilTaxService());
+
+        rentalService.processInvoice(cr);
+
+        System.out.println("INVOICE:");
+        System.out.println("Basic payment: " + cr.getInvoice().getBasicPayment());
+        System.out.println("Tax: " + cr.getInvoice().getTax());
+        System.out.println("Total Payment: " + cr.getInvoice().getTotalPayment());
 
         sc.close();
     }
