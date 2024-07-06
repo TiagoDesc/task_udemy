@@ -15,14 +15,6 @@ public class Installment {
         this.amount = amount;
     }
 
-    public static DateTimeFormatter getFmt() {
-        return fmt;
-    }
-
-    public static void setFmt(DateTimeFormatter fmt) {
-        Installment.fmt = fmt;
-    }
-
     public LocalDate getDueDate() {
         return dueDate;
     }
