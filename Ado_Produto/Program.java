@@ -1,9 +1,5 @@
 package Ado_Produto;
 
-import java.util.Scanner;
-
-import POO.Product.product;
-
 public class Program {
 
     public static void main(String[] args) {
