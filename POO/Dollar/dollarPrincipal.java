@@ -17,6 +17,8 @@ public class dollarPrincipal {
         double result = CurrencyConveter.dollarToReal(amount, dollarPrice);
         System.out.printf("The total value in reais is = R$ %.2f", result);
 
+        sc.close();
+
     }
 
 }
