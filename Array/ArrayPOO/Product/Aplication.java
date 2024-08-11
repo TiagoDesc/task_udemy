@@ -3,8 +3,6 @@ package Array.ArrayPOO.Product;
 import java.util.Locale;
 import java.util.Scanner;
 
-import POO.Product.product;
-
 public class Aplication {
 
     public static void main(String[] args) {
