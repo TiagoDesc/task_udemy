@@ -31,6 +31,8 @@ public class Aplication {
 
         System.out.printf("The average product is $%.2f.", average);
 
+        sc.close();
+
     }
 
 }
