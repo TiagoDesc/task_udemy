@@ -1,4 +1,4 @@
-package Lambda;
+package Lambda.Product;
 
 import java.util.Comparator;
 

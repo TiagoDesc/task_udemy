@@ -1,4 +1,4 @@
-package Lambda;
+package Lambda.Product;
 
 public class Product {
 
