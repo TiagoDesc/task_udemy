@@ -13,5 +13,7 @@ public class ex3 {
             System.out.println(num + " é impar.");
         }
 
+        System.out.println("teste pro intellij.");
+
     }
 }

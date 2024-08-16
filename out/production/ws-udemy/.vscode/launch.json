@@ -1,0 +1,687 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "JDBC.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Lambda.Stream.Fibonacci",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Lambda.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Generics.Students.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Generics.DelimitJoker.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Interface.Contract.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Interface.Rental.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Working_Files.Product.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Path",
+            "request": "launch",
+            "mainClass": "Working_Files.Path.Path",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "FileReaderMain",
+            "request": "launch",
+            "mainClass": "Working_Files.FileReaderMain",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Working_Files.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Exception.Account.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Exception.Hotel.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Position",
+            "request": "launch",
+            "mainClass": "Exception.Position",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Ado_Produto.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Herança.People.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Enumerações.GeometricFigure.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program2",
+            "request": "launch",
+            "mainClass": "Herança.Account.Program2",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Herança.Account.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Herança.Product.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Herança.Employee.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Herança.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Enumerações.OrderTask.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Enumerações.Post.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Enumerações.Worker.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "Enumerações.OrderStatus.Program",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Beggin",
+            "request": "launch",
+            "mainClass": "Listas.First_List.Beggin",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex10_List1",
+            "request": "launch",
+            "mainClass": "ex10_List1",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Calendar",
+            "request": "launch",
+            "mainClass": "JavaDateHour.Calendar",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "SimpleDate",
+            "request": "launch",
+            "mainClass": "JavaDateHour.SimpleDate",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Week",
+            "request": "launch",
+            "mainClass": "JavaDateHour.Week",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "GetDataDate",
+            "request": "launch",
+            "mainClass": "JavaDateHour.GetDataDate",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ConverterDate",
+            "request": "launch",
+            "mainClass": "JavaDateHour.ConverterDate",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Locale",
+            "request": "launch",
+            "mainClass": "JavaDateHour.Locale",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "line_column",
+            "request": "launch",
+            "mainClass": "Matriz.line_column",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ordem",
+            "request": "launch",
+            "mainClass": "Matriz.ordem",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Aplication",
+            "request": "launch",
+            "mainClass": "Listas.Employee.Aplication",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Beggin",
+            "request": "launch",
+            "mainClass": "Listas.Beggin",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "approved",
+            "request": "launch",
+            "mainClass": "Array.Lesson.approved",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "bigger_position",
+            "request": "launch",
+            "mainClass": "Array.any_questions.bigger_position",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "boarding_house",
+            "request": "launch",
+            "mainClass": "Array.ArrayPOO.Boarding.boarding_house",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "boarding_house",
+            "request": "launch",
+            "mainClass": "Array.any_questions.boarding_house",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Aplication",
+            "request": "launch",
+            "mainClass": "Array.ArrayPOO.Product.Aplication",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "fuel",
+            "request": "launch",
+            "mainClass": "Questions_exam.fuel",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "people_data",
+            "request": "launch",
+            "mainClass": "Array.any_questions.people_data",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "approved",
+            "request": "launch",
+            "mainClass": "Array.any_questions.approved",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "mais_velho",
+            "request": "launch",
+            "mainClass": "Array.any_questions.mais_velho",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "media_pares",
+            "request": "launch",
+            "mainClass": "Array.any_questions.media_pares",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "inss",
+            "request": "launch",
+            "mainClass": "Questions_exam.inss",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "abaixo_media",
+            "request": "launch",
+            "mainClass": "Array.abaixo_media",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Negative",
+            "request": "launch",
+            "mainClass": "Array.any_questions.Negative",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "maior_posicao",
+            "request": "launch",
+            "mainClass": "Array.any_questions.maior_posicao",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "soma_valores",
+            "request": "launch",
+            "mainClass": "Array.any_questions.soma_valores",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "numeros_pares",
+            "request": "launch",
+            "mainClass": "Array.numeros_pares",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "altura",
+            "request": "launch",
+            "mainClass": "Array.Altura.altura",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Aplication",
+            "request": "launch",
+            "mainClass": "Array.Alturas.Aplication",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "soma_vetores",
+            "request": "launch",
+            "mainClass": "Array.soma_vetores",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Negative",
+            "request": "launch",
+            "mainClass": "Array.Negative",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "temperatura",
+            "request": "launch",
+            "mainClass": "Questions_exam.temperatura",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Aplication",
+            "request": "launch",
+            "mainClass": "Array.ArrayPOO.Aplication",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "altura",
+            "request": "launch",
+            "mainClass": "Array.altura",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Aplication",
+            "request": "launch",
+            "mainClass": "POO.Circle.Aplication",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Aplication",
+            "request": "launch",
+            "mainClass": "POO.Student.Aplication",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "arrayPares_Impares",
+            "request": "launch",
+            "mainClass": "arrayPares_Impares",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "relogio_matriz",
+            "request": "launch",
+            "mainClass": "relogio_matriz",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "aposentadoria",
+            "request": "launch",
+            "mainClass": "aposentadoria",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "teste",
+            "request": "launch",
+            "mainClass": "Carro.teste",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Aplication",
+            "request": "launch",
+            "mainClass": "Carro.Aplication",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "teste",
+            "request": "launch",
+            "mainClass": "teste",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Tucano",
+            "request": "launch",
+            "mainClass": "POO.Tucano",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Aplication",
+            "request": "launch",
+            "mainClass": "POO.Bank.Aplication",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "app",
+            "request": "launch",
+            "mainClass": "POO.Product.app",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "dollarPrincipal",
+            "request": "launch",
+            "mainClass": "POO.Dollar.dollarPrincipal",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "salary",
+            "request": "launch",
+            "mainClass": "POO.Employee.salary",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "aplication",
+            "request": "launch",
+            "mainClass": "TiagoNobreADO1.Rectangle.aplication",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Tucano",
+            "request": "launch",
+            "mainClass": "TiagoNobreADO1.Tucano",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Aplication",
+            "request": "launch",
+            "mainClass": "Aplication",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex17",
+            "request": "launch",
+            "mainClass": "ex17",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex16",
+            "request": "launch",
+            "mainClass": "ex16",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex15",
+            "request": "launch",
+            "mainClass": "ex15",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex14",
+            "request": "launch",
+            "mainClass": "ex14",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex13",
+            "request": "launch",
+            "mainClass": "ex13",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex12",
+            "request": "launch",
+            "mainClass": "ex12",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex11",
+            "request": "launch",
+            "mainClass": "ex11",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "lolo",
+            "request": "launch",
+            "mainClass": "lolo",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex10",
+            "request": "launch",
+            "mainClass": "ex10",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex9",
+            "request": "launch",
+            "mainClass": "ex9",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex8",
+            "request": "launch",
+            "mainClass": "ex8",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex7",
+            "request": "launch",
+            "mainClass": "ex7",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex6",
+            "request": "launch",
+            "mainClass": "ex6",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex5",
+            "request": "launch",
+            "mainClass": "ex5",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex4",
+            "request": "launch",
+            "mainClass": "ex4",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex3",
+            "request": "launch",
+            "mainClass": "ex3",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "ex2",
+            "request": "launch",
+            "mainClass": "ex2",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ex1",
+            "request": "launch",
+            "mainClass": "ex1",
+            "projectName": "ws-udemy_6c7938d2"
+        },
+        {
+            "type": "java",
+            "name": "temperatura",
+            "request": "launch",
+            "mainClass": "temperatura",
+            "projectName": "ws-udemy_6c7938d2"
+        }
+    ]
+}
